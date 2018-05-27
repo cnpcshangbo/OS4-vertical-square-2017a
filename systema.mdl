@@ -6,7 +6,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.1295"
+    ComputedModelVersion    "1.1297"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -112,7 +112,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [53.0, 38.0, 912.0, 865.0]
+      Location		      [830.0, 25.0, 912.0, 865.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -137,8 +137,8 @@ Model {
 	ViewObjType		"SimulinkTopLevel"
 	LoadSaveID		"0"
 	Extents			[858.0, 685.0]
-	ZoomFactor		[3.0]
-	Offset			[839.586333269915, 85.902499830180815]
+	ZoomFactor		[1.75]
+	Offset			[768.07994276641341, 67.734943786169765]
       }
       Object {
 	$PropName		"DockComponentsInfo"
@@ -172,9 +172,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "lenovo"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Sat May 26 15:47:51 2018"
-  RTWModifiedTimeStamp	  449250463
-  ModelVersionFormat	  "1.%<AutoIncrement:1295>"
+  LastModifiedDate	  "Sun May 27 14:11:33 2018"
+  RTWModifiedTimeStamp	  449330399
+  ModelVersionFormat	  "1.%<AutoIncrement:1297>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "none"
@@ -941,7 +941,7 @@ Model {
       }
       Name		      "Configuration"
       ExtraOptions	      "-aExtMode=0 -aExtModeTesting=0 "
-      CurrentDlgPage	      "Solver"
+      CurrentDlgPage	      "Simulation Target"
       ConfigPrmDlgPosition    [ 243, 147, 1096, 702 ]
     }
     PropName		    "ConfigurationSets"
@@ -1240,7 +1240,7 @@ Model {
   }
   System {
     Name		    "systema"
-    Location		    [53, 38, 965, 903]
+    Location		    [830, 25, 1742, 890]
     Open		    on
     PortBlocksUseCompactNotation off
     ModelBrowserVisibility  off
@@ -1253,7 +1253,7 @@ Model {
     TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "300"
+    ZoomFactor		    "175"
     ReportName		    "simulink-default.rpt"
     SIDHighWatermark	    "432"
     Block {
@@ -1378,7 +1378,7 @@ Model {
       Variant		      off
       System {
 	Name			"CONTROL"
-	Location		[-1541, -519, -465, 316]
+	Location		[849, 31, 1761, 896]
 	Open			off
 	PortBlocksUseCompactNotation off
 	ModelBrowserVisibility	off
@@ -1524,7 +1524,7 @@ Model {
 	  Position		  [750, 47, 790, 83]
 	  ZOrder		  -13
 	  BlockMirror		  on
-	  LibraryVersion	  "1.388"
+	  LibraryVersion	  "1.401"
 	  SourceBlock		  "simulink/Continuous/PID Controller"
 	  SourceType		  "PID 1dof"
 	  SourceProductName	  "Simulink"
@@ -1642,6 +1642,29 @@ Model {
 	  DifferentiatorOutMin	  "[]"
 	  DifferentiatorOutMax	  "[]"
 	  DifferentiatorOutDataTypeStr "Inherit: Inherit via internal rule"
+	  InitialConditionSetting "State (most efficient)"
+	  FilterDiffNumProductOutputDataTypeStr	"Inherit: Inherit via internal rule"
+	  FilterDiffDenProductOutputDataTypeStr	"Inherit: Inherit via internal rule"
+	  FilterDiffNumAccumDataTypeStr	"Inherit: Inherit via internal rule"
+	  FilterDiffDenAccumDataTypeStr	"Inherit: Inherit via internal rule"
+	  FilterDiffOutCoefMin	  "[]"
+	  FilterDiffOutCoefMax	  "[]"
+	  FilterDiffOutCoefDataTypeStr "Inherit: Inherit via internal rule"
+	  SumDenAccumDataTypeStr  "Inherit: Inherit via internal rule"
+	  SumDenOutMin		  "[]"
+	  SumDenOutMax		  "[]"
+	  SumDenOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SumNumAccumDataTypeStr  "Inherit: Inherit via internal rule"
+	  SumNumOutMin		  "[]"
+	  SumNumOutMax		  "[]"
+	  SumNumOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  ReciprocalOutMin	  "[]"
+	  ReciprocalOutMax	  "[]"
+	  ReciprocalOutDataTypeStr "Inherit: Inherit via internal rule"
+	  DivideOutMin		  "[]"
+	  DivideOutMax		  "[]"
+	  DivideOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  TunerSelectOption	  "Transfer Function Based (PID Tuner App)"
 	}
 	Block {
 	  BlockType		  Reference
@@ -1651,7 +1674,7 @@ Model {
 	  Position		  [750, 107, 790, 143]
 	  ZOrder		  -14
 	  BlockMirror		  on
-	  LibraryVersion	  "1.388"
+	  LibraryVersion	  "1.401"
 	  SourceBlock		  "simulink/Continuous/PID Controller"
 	  SourceType		  "PID 1dof"
 	  SourceProductName	  "Simulink"
@@ -1769,6 +1792,29 @@ Model {
 	  DifferentiatorOutMin	  "[]"
 	  DifferentiatorOutMax	  "[]"
 	  DifferentiatorOutDataTypeStr "Inherit: Inherit via internal rule"
+	  InitialConditionSetting "State (most efficient)"
+	  FilterDiffNumProductOutputDataTypeStr	"Inherit: Inherit via internal rule"
+	  FilterDiffDenProductOutputDataTypeStr	"Inherit: Inherit via internal rule"
+	  FilterDiffNumAccumDataTypeStr	"Inherit: Inherit via internal rule"
+	  FilterDiffDenAccumDataTypeStr	"Inherit: Inherit via internal rule"
+	  FilterDiffOutCoefMin	  "[]"
+	  FilterDiffOutCoefMax	  "[]"
+	  FilterDiffOutCoefDataTypeStr "Inherit: Inherit via internal rule"
+	  SumDenAccumDataTypeStr  "Inherit: Inherit via internal rule"
+	  SumDenOutMin		  "[]"
+	  SumDenOutMax		  "[]"
+	  SumDenOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  SumNumAccumDataTypeStr  "Inherit: Inherit via internal rule"
+	  SumNumOutMin		  "[]"
+	  SumNumOutMax		  "[]"
+	  SumNumOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  ReciprocalOutMin	  "[]"
+	  ReciprocalOutMax	  "[]"
+	  ReciprocalOutDataTypeStr "Inherit: Inherit via internal rule"
+	  DivideOutMin		  "[]"
+	  DivideOutMax		  "[]"
+	  DivideOutDataTypeStr	  "Inherit: Inherit via internal rule"
+	  TunerSelectOption	  "Transfer Function Based (PID Tuner App)"
 	}
 	Block {
 	  BlockType		  SubSystem
@@ -3908,7 +3954,7 @@ Model {
 	      Ports		      [0, 1]
 	      Position		      [420, 167, 435, 183]
 	      ZOrder		      -11
-	      LibraryVersion	      "1.388"
+	      LibraryVersion	      "1.401"
 	      SourceBlock	      "simulink/Sources/Band-Limited\nWhite Noise"
 	      SourceType	      "Band-Limited White Noise."
 	      SourceProductName	      "Simulink"
@@ -3926,7 +3972,7 @@ Model {
 	      Ports		      [0, 1]
 	      Position		      [430, 77, 445, 93]
 	      ZOrder		      -12
-	      LibraryVersion	      "1.388"
+	      LibraryVersion	      "1.401"
 	      SourceBlock	      "simulink/Sources/Band-Limited\nWhite Noise"
 	      SourceType	      "Band-Limited White Noise."
 	      SourceProductName	      "Simulink"
@@ -3944,7 +3990,7 @@ Model {
 	      Ports		      [0, 1]
 	      Position		      [420, 257, 435, 273]
 	      ZOrder		      -13
-	      LibraryVersion	      "1.388"
+	      LibraryVersion	      "1.401"
 	      SourceBlock	      "simulink/Sources/Band-Limited\nWhite Noise"
 	      SourceType	      "Band-Limited White Noise."
 	      SourceProductName	      "Simulink"
@@ -3962,7 +4008,7 @@ Model {
 	      Ports		      [0, 1]
 	      Position		      [425, 122, 440, 138]
 	      ZOrder		      -14
-	      LibraryVersion	      "1.388"
+	      LibraryVersion	      "1.401"
 	      SourceBlock	      "simulink/Sources/Band-Limited\nWhite Noise"
 	      SourceType	      "Band-Limited White Noise."
 	      SourceProductName	      "Simulink"
@@ -3980,7 +4026,7 @@ Model {
 	      Ports		      [0, 1]
 	      Position		      [425, 32, 440, 48]
 	      ZOrder		      -15
-	      LibraryVersion	      "1.388"
+	      LibraryVersion	      "1.401"
 	      SourceBlock	      "simulink/Sources/Band-Limited\nWhite Noise"
 	      SourceType	      "Band-Limited White Noise."
 	      SourceProductName	      "Simulink"
@@ -3998,7 +4044,7 @@ Model {
 	      Ports		      [0, 1]
 	      Position		      [425, 212, 440, 228]
 	      ZOrder		      -16
-	      LibraryVersion	      "1.388"
+	      LibraryVersion	      "1.401"
 	      SourceBlock	      "simulink/Sources/Band-Limited\nWhite Noise"
 	      SourceType	      "Band-Limited White Noise."
 	      SourceProductName	      "Simulink"
@@ -4016,7 +4062,7 @@ Model {
 	      Ports		      [0, 1]
 	      Position		      [420, 302, 435, 318]
 	      ZOrder		      -17
-	      LibraryVersion	      "1.388"
+	      LibraryVersion	      "1.401"
 	      SourceBlock	      "simulink/Sources/Band-Limited\nWhite Noise"
 	      SourceType	      "Band-Limited White Noise."
 	      SourceProductName	      "Simulink"
@@ -5115,6 +5161,7 @@ Model {
 	  InternalMargins	  [0, 0, 0, 0]
 	  HorizontalAlignment	  "left"
 	  VerticalAlignment	  "top"
+	  ZOrder		  -1
 	}
 	Annotation {
 	  SID			  "430"
@@ -5123,6 +5170,7 @@ Model {
 	  InternalMargins	  [0, 0, 0, 0]
 	  HorizontalAlignment	  "left"
 	  VerticalAlignment	  "top"
+	  ZOrder		  -2
 	}
 	Annotation {
 	  SID			  "429"
@@ -5131,6 +5179,7 @@ Model {
 	  InternalMargins	  [0, 0, 0, 0]
 	  HorizontalAlignment	  "left"
 	  VerticalAlignment	  "top"
+	  ZOrder		  -3
 	}
 	Annotation {
 	  SID			  "417"
@@ -6374,16 +6423,16 @@ Model {
       ",'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.1607843137254"
       "9;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.058823529411764"
       "7 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedCh"
-      "annelNames',{{}},'NumLines',0,'LineNames',{{[]}},'ShowContent',true,'Placement',1)},'DisplayPropertyDefaults',st"
-      "ruct('MinYLimReal','-0.53354','MaxYLimReal','2.15068','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','2.150"
-      "68','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',"
-      "[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 "
-      "0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;"
-      "0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<"
-      "SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',0,'LineNames',{{[]}},'ShowCon"
-      "tent',true,'Placement',1)),extmgr.Configuration('Tools','Plot Navigation',true,'OnceAtStop',false,'PreviousAutos"
-      "cale','XY'),extmgr.Configuration('Tools','Measurements',true,'Version','2017b')),'Version','2017b','Location',[1"
-      " 573 406 1079],'WindowStyle','docked','VisibleAtModelOpen','on')"
+      "annelNames',{{}},'NumLines',1,'LineNames',{{'Subsystem/2'}},'ShowContent',true,'Placement',1)},'DisplayPropertyD"
+      "efaults',struct('MinYLimReal','-0.53354','MaxYLimReal','2.15068','YLabelReal','','MinYLimMag','0.00000','MaxYLim"
+      "Mag','2.15068','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'Axes"
+      "TickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.074509"
+      "8039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.074509"
+      "8039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],"
+      "'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',0,'LineNames',{{[]"
+      "}},'ShowContent',true,'Placement',1)),extmgr.Configuration('Tools','Plot Navigation',true,'OnceAtStop',false,'Pr"
+      "eviousAutoscale','XY'),extmgr.Configuration('Tools','Measurements',true,'Version','2017b')),'Version','2017b','L"
+      "ocation',[1 643 798 1079],'WindowStyle','docked','VisibleAtModelOpen','on')"
       NumInputPorts	      "1"
     }
     Block {
@@ -6403,16 +6452,16 @@ Model {
       "'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549"
       ";0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647"
       " 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedCha"
-      "nnelNames',{{}},'NumLines',0,'LineNames',{{[]}},'ShowContent',true,'Placement',1)},'DisplayPropertyDefaults',str"
-      "uct('MinYLimReal','0.57052','MaxYLimReal','5.17143','YLabelReal','','MinYLimMag','0.57052','MaxYLimMag','5.17143"
-      "','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0"
-      ".686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0."
-      "623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0."
-      "717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<Si"
-      "gnalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',0,'LineNames',{{[]}},'ShowConte"
-      "nt',true,'Placement',1)),extmgr.Configuration('Tools','Plot Navigation',true,'OnceAtStop',false,'PreviousAutosca"
-      "le','XY'),extmgr.Configuration('Tools','Measurements',true,'Version','2017b')),'Version','2017b','Location',[1 5"
-      "73 406 1079],'WindowStyle','docked','VisibleAtModelOpen','on')"
+      "nnelNames',{{}},'NumLines',1,'LineNames',{{'Subsystem/3'}},'ShowContent',true,'Placement',1)},'DisplayPropertyDe"
+      "faults',struct('MinYLimReal','0.57052','MaxYLimReal','5.17143','YLabelReal','','MinYLimMag','0.57052','MaxYLimMa"
+      "g','5.17143','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTi"
+      "ckColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.07450980"
+      "39215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.07450980"
+      "39215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'T"
+      "itle','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',0,'LineNames',{{[]}}"
+      ",'ShowContent',true,'Placement',1)),extmgr.Configuration('Tools','Plot Navigation',true,'OnceAtStop',false,'Prev"
+      "iousAutoscale','XY'),extmgr.Configuration('Tools','Measurements',true,'Version','2017b')),'Version','2017b','Loc"
+      "ation',[1 643 798 1079],'WindowStyle','docked','VisibleAtModelOpen','on')"
       NumInputPorts	      "1"
     }
     Block {
@@ -6489,16 +6538,16 @@ Model {
       "[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.3921568627"
       "45098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745"
       "098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{"
-      "}},'NumLines',0,'LineNames',{{[]}},'ShowContent',true,'Placement',1)},'DisplayPropertyDefaults',struct('MinYLimR"
-      "eal','2.75','MaxYLimReal','5.25','YLabelReal','','MinYLimMag','2.75','MaxYLimMag','5.25','LegendVisibility','off"
-      "','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274"
-      "509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411"
-      "764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.2745098"
-      "03921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LineProperti"
-      "esCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',0,'LineNames',{{[]}},'ShowContent',true,'Placement',1)),"
-      "extmgr.Configuration('Tools','Plot Navigation',true,'OnceAtStop',false,'PreviousAutoscale','XY'),extmgr.Configur"
-      "ation('Tools','Measurements',true,'Version','2017b')),'Version','2017b','Location',[1 573 406 1079],'WindowStyle"
-      "','docked','VisibleAtModelOpen','on')"
+      "}},'NumLines',1,'LineNames',{{'z pos setpoint'}},'ShowContent',true,'Placement',1)},'DisplayPropertyDefaults',st"
+      "ruct('MinYLimReal','2.75','MaxYLimReal','5.25','YLabelReal','','MinYLimMag','2.75','MaxYLimMag','5.25','LegendVi"
+      "sibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.6862745098"
+      "03922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.62352941176"
+      "4706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.71764705882"
+      "3529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>'"
+      ",'LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',0,'LineNames',{{[]}},'ShowContent',true,'P"
+      "lacement',1)),extmgr.Configuration('Tools','Plot Navigation',true,'OnceAtStop',false,'PreviousAutoscale','XY'),e"
+      "xtmgr.Configuration('Tools','Measurements',true,'Version','2017b')),'Version','2017b','Location',[1 643 798 1079"
+      "],'WindowStyle','docked','VisibleAtModelOpen','on')"
       NumInputPorts	      "1"
     }
     Block {
@@ -7050,10 +7099,10 @@ Model {
       Form		      "Parallel"
       UseFilter		      on
       ControllerParametersSource "internal"
-      P			      "0.8"
-      I			      "0.2"
-      D			      "0"
-      N			      "100"
+      P			      "1.78976019221014"
+      I			      "0.309124158830126"
+      D			      "1.80752216558791"
+      N			      "4.82597653544632"
       InitialConditionSource  "internal"
       InitialConditionForIntegrator "0"
       InitialConditionForFilter	"0"
@@ -7395,7 +7444,7 @@ Model {
       "6667;0.717647058823529 0.274509803921569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0.058823529411"
       "7647 1 1;1 0.0745098039215686 0.650980392156863])),extmgr.Configuration('Tools','Plot Navigation',true,'Previous"
       "Autoscale','XY'),extmgr.Configuration('Tools','Measurements',true,'Version','2017b')),'Version','2017b','Positio"
-      "n',[1 1 405 506],'WindowStyle','docked','VisibleAtModelOpen','on')"
+      "n',[1 1 797 436],'WindowStyle','docked','VisibleAtModelOpen','on')"
       NumInputPorts	      "1"
     }
     Line {
@@ -7747,8 +7796,8 @@ Model {
     }
     Annotation {
       SID		      "422"
-      Name		      "HOW TO OPERATE\n1- Double click on optiminit block\n2- Run the simulation"
-      Position		      [9, 552, 156, 590]
+      Name		      "HOW TO OPERATE\n1- Right click on optiminit.m file and choose run\n2- Run the simulation"
+      Position		      [-23, 552, 188, 590]
       InternalMargins	      [0, 0, 0, 0]
       ZOrder		      -1
     }
