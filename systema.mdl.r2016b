@@ -1,12 +1,12 @@
 Model {
   Name			  "systema"
-  Version		  9.0
-  SavedCharacterEncoding  "GBK"
+  Version		  8.8
+  SavedCharacterEncoding  "ISO-8859-1"
   GraphicalInterface {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.1295"
+    ComputedModelVersion    "1.1294"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -15,83 +15,12 @@ Model {
     HasInitializeEvent	    0
     HasTerminateEvent	    0
     IsExportFunctionModel   0
-    NumParameterArguments   0
-    NumExternalFileReferences 11
-    ExternalFileReference {
-      Reference		      "simulink/Continuous/PID Controller"
-      Path		      "systema/CONTROL/PID Controller"
-      SID		      "377"
-      Type		      "LIBRARY_BLOCK"
-    }
-    ExternalFileReference {
-      Reference		      "simulink/Continuous/PID Controller"
-      Path		      "systema/CONTROL/PID Controller1"
-      SID		      "378"
-      Type		      "LIBRARY_BLOCK"
-    }
-    ExternalFileReference {
-      Reference		      "simulink/Sources/Band-Limited\nWhite Noise"
-      Path		      "systema/DELAY - NOISE - FILTER/W. NORMAL NOISE1/dot pitchw noise"
-      SID		      "270"
-      Type		      "LIBRARY_BLOCK"
-    }
-    ExternalFileReference {
-      Reference		      "simulink/Sources/Band-Limited\nWhite Noise"
-      Path		      "systema/DELAY - NOISE - FILTER/W. NORMAL NOISE1/dot roll w noise"
-      SID		      "271"
-      Type		      "LIBRARY_BLOCK"
-    }
-    ExternalFileReference {
-      Reference		      "simulink/Sources/Band-Limited\nWhite Noise"
-      Path		      "systema/DELAY - NOISE - FILTER/W. NORMAL NOISE1/dot yaw w noise"
-      SID		      "272"
-      Type		      "LIBRARY_BLOCK"
-    }
-    ExternalFileReference {
-      Reference		      "simulink/Sources/Band-Limited\nWhite Noise"
-      Path		      "systema/DELAY - NOISE - FILTER/W. NORMAL NOISE1/pitch w noise"
-      SID		      "273"
-      Type		      "LIBRARY_BLOCK"
-    }
-    ExternalFileReference {
-      Reference		      "simulink/Sources/Band-Limited\nWhite Noise"
-      Path		      "systema/DELAY - NOISE - FILTER/W. NORMAL NOISE1/roll w noise"
-      SID		      "274"
-      Type		      "LIBRARY_BLOCK"
-    }
-    ExternalFileReference {
-      Reference		      "simulink/Sources/Band-Limited\nWhite Noise"
-      Path		      "systema/DELAY - NOISE - FILTER/W. NORMAL NOISE1/yaw w noise"
-      SID		      "275"
-      Type		      "LIBRARY_BLOCK"
-    }
-    ExternalFileReference {
-      Reference		      "simulink/Sources/Band-Limited\nWhite Noise"
-      Path		      "systema/DELAY - NOISE - FILTER/W. NORMAL NOISE1/z w noise"
-      SID		      "276"
-      Type		      "LIBRARY_BLOCK"
-    }
-    ExternalFileReference {
-      Reference		      "simulink/Continuous/PID Controller"
-      Path		      "systema/x pos Controller"
-      SID		      "302"
-      Type		      "LIBRARY_BLOCK"
-    }
-    ExternalFileReference {
-      Reference		      "simulink/Continuous/PID Controller"
-      Path		      "systema/y pos Controller"
-      SID		      "303"
-      Type		      "LIBRARY_BLOCK"
-    }
-    OrderedModelArguments   1
   }
   LogicAnalyzerGraphicalSettings ""
   LogicAnalyzerPlugin	  "on"
   LogicAnalyzerSignalOrdering ""
   DiagnosticSuppressor	  "on"
-  SuppressorTable	  "22 serialization::archive 11 0 6 0 0 0 8 0"
-  CustomCodeFunctionData  ""
-  SLCCPlugin		  "on"
+  SuppressorTable	  "22 serialization::archive 11 0 3 0 0 0 0 0"
   ScopeRefreshTime	  0.035000
   OverrideScopeRefreshTime on
   DisableAllScopes	  off
@@ -102,7 +31,7 @@ Model {
   FPTRunName		  "Run 1"
   MaxMDLFileLineLength	  120
   CloseFcn		  "rtwprivate ssgencode ModelCloseRequest systema"
-  LastSavedArchitecture	  "win64"
+  LastSavedArchitecture	  "maci64"
   Object {
     $PropName		    "BdWindowsInfo"
     $ObjectID		    1
@@ -112,7 +41,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [53.0, 38.0, 912.0, 865.0]
+      Location		      [82.0, 23.0, 1076.0, 738.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -136,9 +65,9 @@ Model {
 	IsActive		[1]
 	ViewObjType		"SimulinkTopLevel"
 	LoadSaveID		"0"
-	Extents			[858.0, 685.0]
-	ZoomFactor		[3.0]
-	Offset			[839.586333269915, 85.902499830180815]
+	Extents			[1042.0, 565.0]
+	ZoomFactor		[1.0]
+	Offset			[154.93234519635928, 43.834640223665176]
       }
       Object {
 	$PropName		"DockComponentsInfo"
@@ -156,32 +85,31 @@ Model {
       }
       WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAAC9AAAB+PwCAAAAA/sAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
       "AAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0Ac"
-      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABjAP///wAAAAEAAAAAAAAAAPwCA"
+      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABuAP///wAAAAEAAAAAAAAAAPwCA"
       "AAAAfsAAABUAEcATABVAEUAMgA6AFAAcgBvAHAAZQByAHQAeQBJAG4AcwBwAGUAYwB0AG8AcgAvAFAAcgBvAHAAZQByAHQAeQAgAEkAbgBzAHAAZ"
-      "QBjAHQAbwByAAAAAAD/////AAAALAD///8AAAOAAAAC5gAAAAEAAAACAAAAAQAAAAL8AAAAAQAAAAIAAAAP/////wAAAAAA/////wAAAAAAAAAA/"
+      "QBjAHQAbwByAAAAAAD/////AAAAKgD///8AAAQ0AAACbAAAAAEAAAACAAAAAQAAAAL8AAAAAQAAAAIAAAAP/////wAAAAAA/////wAAAAAAAAAA/"
       "////wEAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/"
-      "////wEAAAB5/////wAAAAAAAAAA/////wEAAADa/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAFT/////wAAAAAAAAAA/"
-      "////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAMY/////wAAAAAAAAAA/"
+      "////wEAAACE/////wAAAAAAAAAA/////wEAAAD2/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAF6/////wAAAAAAAAAA/"
+      "////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAOv/////wAAAAAAAAAA/"
       "////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA"
     }
   }
-  HideAutomaticNames	  on
   Created		  "Wed Oct 08 11:05:00 2003"
   Creator		  "ece"
   UpdateHistory		  "UpdateHistoryNever"
   ModifiedByFormat	  "%<Auto>"
-  LastModifiedBy	  "lenovo"
+  LastModifiedBy	  "Bo"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Sat May 26 15:47:51 2018"
-  RTWModifiedTimeStamp	  449250463
-  ModelVersionFormat	  "1.%<AutoIncrement:1295>"
+  LastModifiedDate	  "Fri Oct 28 23:20:26 2016"
+  RTWModifiedTimeStamp	  399596423
+  ModelVersionFormat	  "1.%<AutoIncrement:1294>"
+  ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "none"
   WideLines		  off
   ShowLineDimensions	  on
   ShowPortDataTypes	  off
-  PortDataTypeDisplayFormat "AliasTypeOnly"
   ShowEditTimeErrors	  on
   ShowEditTimeWarnings	  on
   ShowEditTimeAdvisorChecks off
@@ -202,14 +130,12 @@ Model {
   BlockNameDataTip	  on
   BlockParametersDataTip  off
   BlockDescriptionStringDataTip	off
-  BlockVariantConditionDataTip off
   ToolBar		  on
   StatusBar		  on
   BrowserShowLibraryLinks off
   FunctionConnectors	  off
   BrowserLookUnderMasks	  off
   SimulationMode	  "normal"
-  VisualizeLoggedSignalsWhenLoggingToFile off
   PauseTimes		  "5"
   NumberOfSteps		  1
   SnapshotBufferSize	  10
@@ -263,13 +189,12 @@ Model {
   ExtModeAutoUpdateStatusClock on
   ShowModelReferenceBlockVersion off
   ShowModelReferenceBlockIO off
-  OrderedModelArguments	  on
   Array {
     Type		    "Handle"
     Dimension		    1
     Simulink.ConfigSet {
       $ObjectID		      8
-      Version		      "1.17.1"
+      Version		      "1.16.5"
       DisabledProps	      []
       Description	      ""
       Array {
@@ -277,7 +202,7 @@ Model {
 	Dimension		9
 	Simulink.SolverCC {
 	  $ObjectID		  9
-	  Version		  "1.17.1"
+	  Version		  "1.16.5"
 	  DisabledProps		  []
 	  Description		  ""
 	  StartTime		  "0.0"
@@ -285,6 +210,7 @@ Model {
 	  AbsTol		  "auto"
 	  FixedStep		  "0.01"
 	  InitialStep		  "auto"
+	  MaxNumMinSteps	  "-1"
 	  MaxOrder		  5
 	  ZcThreshold		  "auto"
 	  ConsecutiveZCsStepRelTol "10*128*eps"
@@ -296,6 +222,7 @@ Model {
 	  MaxConsecutiveMinStep	  "1"
 	  RelTol		  "1e-3"
 	  EnableMultiTasking	  on
+	  EnableConcurrentExecution off
 	  ConcurrentTasks	  off
 	  Solver		  "ode4"
 	  SolverName		  "ode4"
@@ -312,11 +239,10 @@ Model {
 	  SampleTimeConstraint	  "Unconstrained"
 	  InsertRTBMode		  "Whenever possible"
 	  SampleTimeProperty	  []
-	  DecoupledContinuousIntegration off
 	}
 	Simulink.DataIOCC {
 	  $ObjectID		  10
-	  Version		  "1.17.1"
+	  Version		  "1.16.5"
 	  DisabledProps		  []
 	  Description		  ""
 	  Decimation		  "1"
@@ -351,13 +277,12 @@ Model {
 	  ReturnWorkspaceOutputsName "out"
 	  Refine		  "1"
 	  LoggingToFile		  off
-	  DatasetSignalFormat	  "timeseries"
 	  LoggingFileName	  "out.mat"
 	  LoggingIntervals	  "[-inf, inf]"
 	}
 	Simulink.OptimizationCC {
 	  $ObjectID		  11
-	  Version		  "1.17.1"
+	  Version		  "1.16.5"
 	  Array {
 	    Type		    "Cell"
 	    Dimension		    8
@@ -412,14 +337,10 @@ Model {
 	  BufferReusableBoundary  on
 	  SimCompilerOptimization "off"
 	  AccelVerboseBuild	  off
-	  OptimizeBlockOrder	  "off"
-	  OptimizeDataStoreBuffers on
-	  BusAssignmentInplaceUpdate on
-	  DifferentSizesBufferReuse off
 	}
 	Simulink.DebuggingCC {
 	  $ObjectID		  12
-	  Version		  "1.17.1"
+	  Version		  "1.16.5"
 	  Array {
 	    Type		    "Cell"
 	    Dimension		    1
@@ -458,7 +379,6 @@ Model {
 	  MultiTaskRateTransMsg	  "error"
 	  SingleTaskRateTransMsg  "none"
 	  TasksWithSamePriorityMsg "warning"
-	  ExportedTasksRateTransMsg "none"
 	  SigSpecEnsureSampleTimeMsg "warning"
 	  CheckMatrixSingularityMsg "none"
 	  IntegerOverflowMsg	  "warning"
@@ -500,7 +420,6 @@ Model {
 	  StateNameClashWarn	  "warning"
 	  SimStateInterfaceChecksumMismatchMsg "warning"
 	  SimStateOlderReleaseMsg "error"
-	  ChecksumConsistencyForSSReuse	"none"
 	  InitInArrayFormatMsg	  "warning"
 	  StrictBusMsg		  "ErrorLevel1"
 	  BusNameAdapt		  "WarnAndRepair"
@@ -508,7 +427,6 @@ Model {
 	  SymbolicDimMinMaxWarning "warning"
 	  LossOfSymbolicDimsSimulationWarning "warning"
 	  LossOfSymbolicDimsCodeGenerationWarning "error"
-	  SymbolicDimsDataTypeCodeGenerationDiagnostic "error"
 	  BlockIODiagnostic	  "none"
 	  SFUnusedDataAndEventsDiag "warning"
 	  SFUnexpectedBacktrackingDiag "warning"
@@ -527,14 +445,10 @@ Model {
 	  AllowedUnitSystems	  "all"
 	  UnitsInconsistencyMsg	  "warning"
 	  AllowAutomaticUnitConversions	on
-	  RCSCRenamedMsg	  "warning"
-	  RCSCObservableMsg	  "warning"
-	  ForceCombineOutputUpdateInSim	off
-	  UnitDatabase		  ""
 	}
 	Simulink.HardwareCC {
 	  $ObjectID		  13
-	  Version		  "1.17.1"
+	  Version		  "1.16.5"
 	  DisabledProps		  []
 	  Description		  ""
 	  ProdBitPerChar	  8
@@ -582,7 +496,7 @@ Model {
 	}
 	Simulink.ModelReferenceCC {
 	  $ObjectID		  14
-	  Version		  "1.17.1"
+	  Version		  "1.16.5"
 	  DisabledProps		  []
 	  Description		  ""
 	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
@@ -601,7 +515,7 @@ Model {
 	}
 	Simulink.SFSimCC {
 	  $ObjectID		  15
-	  Version		  "1.17.1"
+	  Version		  "1.16.5"
 	  DisabledProps		  []
 	  Description		  ""
 	  SimCustomSourceCode	  ""
@@ -625,13 +539,11 @@ Model {
 	  ModelFunctionsGlobalVisibility "on"
 	  CompileTimeRecursionLimit 50
 	  EnableRuntimeRecursion  on
-	  MATLABDynamicMemAlloc	  on
-	  MATLABDynamicMemAllocThreshold 65536
 	}
 	Simulink.RTWCC {
 	  $BackupClass		  "Simulink.RTWCC"
 	  $ObjectID		  16
-	  Version		  "1.17.1"
+	  Version		  "1.16.5"
 	  Array {
 	    Type		    "Cell"
 	    Dimension		    13
@@ -679,7 +591,6 @@ Model {
 	  CustomLibrary		  ""
 	  CustomDefine		  ""
 	  CustomLAPACKCallback	  ""
-	  CustomFFTCallback	  ""
 	  CustomInitializer	  ""
 	  CustomTerminator	  ""
 	  Toolchain		  "Automatically locate an installed toolchain"
@@ -715,10 +626,10 @@ Model {
 	    Dimension		    2
 	    Simulink.CodeAppCC {
 	      $ObjectID		      17
-	      Version		      "1.17.1"
+	      Version		      "1.16.5"
 	      Array {
 		Type			"Cell"
-		Dimension		27
+		Dimension		25
 		Cell			"IgnoreCustomStorageClasses"
 		Cell			"IgnoreTestpoints"
 		Cell			"InsertBlockDesc"
@@ -744,8 +655,6 @@ Model {
 		Cell			"CustomSymbolStrUtil"
 		Cell			"CustomUserTokenString"
 		Cell			"ReqsInCode"
-		Cell			"CustomSymbolStrEmxType"
-		Cell			"CustomSymbolStrEmxFcn"
 		PropName		"DisabledProps"
 	      }
 	      Description	      ""
@@ -755,16 +664,18 @@ Model {
 	      CommentStyle	      "Auto"
 	      IgnoreCustomStorageClasses on
 	      IgnoreTestpoints	      off
+	      IncHierarchyInIds	      off
 	      MaxIdLength	      31
 	      PreserveName	      off
 	      PreserveNameWithParent  off
 	      ShowEliminatedStatement off
 	      OperatorAnnotations     off
+	      IncAutoGenComments      off
 	      SimulinkDataObjDesc     off
 	      SFDataObjDesc	      off
 	      MATLABFcnDesc	      off
+	      IncDataTypeInIds	      off
 	      MangleLength	      1
-	      SharedChecksumLength    8
 	      CustomSymbolStrGlobalVar "$R$N$M"
 	      CustomSymbolStrType     "$N$R$M_T"
 	      CustomSymbolStrField    "$N$M"
@@ -775,8 +686,6 @@ Model {
 	      CustomSymbolStrTmpVar   "$N$M"
 	      CustomSymbolStrMacro    "$R$N$M"
 	      CustomSymbolStrUtil     "$N$C"
-	      CustomSymbolStrEmxType  "emxArray_$M$N"
-	      CustomSymbolStrEmxFcn   "emx$M$N"
 	      CustomUserTokenString   ""
 	      CustomCommentsFcn	      ""
 	      DefineNamingRule	      "None"
@@ -788,7 +697,6 @@ Model {
 	      InsertBlockDesc	      off
 	      InsertPolySpaceComments off
 	      SimulinkBlockComments   on
-	      StateflowObjectComments on
 	      MATLABSourceComments    off
 	      EnableCustomComments    off
 	      InternalIdentifierFile  ""
@@ -801,7 +709,7 @@ Model {
 	    Simulink.GRTTargetCC {
 	      $BackupClass	      "Simulink.TargetCC"
 	      $ObjectID		      18
-	      Version		      "1.17.1"
+	      Version		      "1.16.5"
 	      Array {
 		Type			"Cell"
 		Dimension		15
@@ -830,7 +738,8 @@ Model {
 	      TargetLangStandard      "C89/C90 (ANSI)"
 	      CodeReplacementLibrary  "None"
 	      UtilityFuncGeneration   "Auto"
-	      MultiwordTypeDef	      "System defined"
+	      ERTMultiwordTypeDef     "System defined"
+	      ERTMultiwordLength      256
 	      MultiwordLength	      2048
 	      GenerateFullHeader      on
 	      InferredTypesCompatibility off
@@ -846,6 +755,7 @@ Model {
 	      CombineOutputUpdateFcns off
 	      CombineSignalStateStructs	off
 	      SuppressErrorStatus     off
+	      ERTFirstTimeCompliant   off
 	      IncludeFileDelimiter    "Auto"
 	      ERTCustomFileBanners    off
 	      SupportAbsoluteTime     on
@@ -873,11 +783,6 @@ Model {
 	      UseToolchainInfoCompliant	on
 	      GenerateSharedConstants on
 	      CoderGroups	      []
-	      AccessMethods	      []
-	      LookupTableObjectStructAxisOrder "1,2,3,4,..."
-	      LUTObjectStructOrderExplicitValues "Size,Breakpoints,Table"
-	      LUTObjectStructOrderEvenSpacing "Size,Breakpoints,Table"
-	      ArrayLayout	      "Column-major"
 	      UseMalloc		      off
 	      ExtMode		      off
 	      ExtModeStaticAlloc      off
@@ -899,7 +804,7 @@ Model {
 	}
 	SlCovCC.ConfigComp {
 	  $ObjectID		  19
-	  Version		  "1.17.1"
+	  Version		  "1.16.5"
 	  DisabledProps		  []
 	  Description		  "Simulink Coverage Configuration Component"
 	  Name			  "Simulink Coverage"
@@ -935,14 +840,13 @@ Model {
 	  CovUseTimeInterval	  off
 	  CovStartTime		  0
 	  CovStopTime		  0
-	  CovMcdcMode		  "Masking"
 	}
 	PropName		"Components"
       }
       Name		      "Configuration"
       ExtraOptions	      "-aExtMode=0 -aExtModeTesting=0 "
       CurrentDlgPage	      "Solver"
-      ConfigPrmDlgPosition    [ 243, 147, 1096, 702 ]
+      ConfigPrmDlgPosition     [ 243, 147, 1096, 702 ] 
     }
     PropName		    "ConfigurationSets"
   }
@@ -971,7 +875,6 @@ Model {
     FontWeight		    "normal"
     FontAngle		    "normal"
     ShowName		    on
-    HideAutomaticName	    on
     BlockRotation	    0
     BlockMirror		    off
   }
@@ -985,12 +888,7 @@ Model {
     FontSize		    10
     FontWeight		    "normal"
     FontAngle		    "normal"
-    MarkupType		    "model"
     UseDisplayTextAsClickCallback off
-    AnnotationType	    "note_annotation"
-    FixedHeight		    off
-    FixedWidth		    off
-    Interpreter		    "off"
   }
   LineDefaults {
     FontName		    "Helvetica"
@@ -1002,7 +900,7 @@ Model {
     SelfModifiable	    "off"
     IconFrame		    "on"
     IconOpaque		    "opaque"
-    RunInitForIconRedraw    "analyze"
+    RunInitForIconRedraw    "off"
     IconRotate		    "none"
     PortRotate		    "default"
     IconUnits		    "autoscale"
@@ -1113,16 +1011,12 @@ Model {
       SourceOfInitialOutputValue "Dialog"
       OutputWhenDisabled      "held"
       InitialOutput	      "[]"
-      MustResolveToSignalObject	off
-      OutputWhenUnConnected   off
-      OutputWhenUnconnectedValue "0"
-      VectorParamsAs1DForOutWhenUnconnected off
     }
     Block {
       BlockType		      RateTransition
       Integrity		      on
       Deterministic	      on
-      InitialCondition	      "0"
+      X0		      "0"
       OutPortSampleTimeOpt    "Specify"
       OutPortSampleTimeMultiple	"1"
       OutPortSampleTime	      "-1"
@@ -1183,12 +1077,10 @@ Model {
       MaskHideContents	      off
       SFBlockType	      "NONE"
       GeneratePreprocessorConditionals off
-      AllowZeroVariantControls off
       PropagateVariantConditions off
       TreatAsGroupedWhenPropagatingVariantConditions on
       ContentPreviewEnabled   off
       IsWebBlock	      off
-      IsObserver	      off
     }
     Block {
       BlockType		      Sum
@@ -1240,9 +1132,8 @@ Model {
   }
   System {
     Name		    "systema"
-    Location		    [53, 38, 965, 903]
+    Location		    [82, 23, 1158, 761]
     Open		    on
-    PortBlocksUseCompactNotation off
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
     ScreenColor		    "white"
@@ -1253,9 +1144,9 @@ Model {
     TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "300"
+    ZoomFactor		    "100"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "432"
+    SIDHighWatermark	    "427"
     Block {
       BlockType		      SubSystem
       Name		      "AERO"
@@ -1271,7 +1162,6 @@ Model {
 	Name			"AERO"
 	Location		[16, 52, 1092, 876]
 	Open			off
-	PortBlocksUseCompactNotation off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -1380,7 +1270,6 @@ Model {
 	Name			"CONTROL"
 	Location		[-1541, -519, -465, 316]
 	Open			off
-	PortBlocksUseCompactNotation off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -1527,8 +1416,6 @@ Model {
 	  LibraryVersion	  "1.388"
 	  SourceBlock		  "simulink/Continuous/PID Controller"
 	  SourceType		  "PID 1dof"
-	  SourceProductName	  "Simulink"
-	  SourceProductBaseCode	  "SL"
 	  ContentPreviewEnabled	  off
 	  Controller		  "PID"
 	  TimeDomain		  "Continuous-time"
@@ -1654,8 +1541,6 @@ Model {
 	  LibraryVersion	  "1.388"
 	  SourceBlock		  "simulink/Continuous/PID Controller"
 	  SourceType		  "PID 1dof"
-	  SourceProductName	  "Simulink"
-	  SourceProductBaseCode	  "SL"
 	  ContentPreviewEnabled	  off
 	  Controller		  "PID"
 	  TimeDomain		  "Continuous-time"
@@ -1784,7 +1669,6 @@ Model {
 	    Name		    "RATE TRANSITION IN"
 	    Location		    [16, 52, 1092, 898]
 	    Open		    off
-	    PortBlocksUseCompactNotation off
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
 	    ScreenColor		    "white"
@@ -2059,7 +1943,6 @@ Model {
 	    Name		    "RATE TRANSITION OUT"
 	    Location		    [16, 52, 1092, 898]
 	    Open		    off
-	    PortBlocksUseCompactNotation off
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
 	    ScreenColor		    "white"
@@ -2153,8 +2036,8 @@ Model {
 	  Ports			  [1]
 	  Position		  [955, 69, 985, 101]
 	  ZOrder		  -20
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[188, 390, 512, 629]'),StrPVP('Open','off'),MxPVP('AxesTitles',5"
-	  "3,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','-0.5'),StrPVP('YMax','2'),StrPVP('SaveName','ScopeData20')"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[188, 390, 512, 629]'),StrPVP('Open','off'),MxPVP('AxesTitles',2"
+	  "4,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','-0.5'),StrPVP('YMax','2'),StrPVP('SaveName','ScopeData20')"
 	  ",StrPVP('DataFormat','StructureWithTime'),StrPVP('BlockParamSampleTime','0'),StrPVP('LimitDataPoints','on'),StrPVP("
 	  "'Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	  NumInputPorts		  "1"
@@ -2166,8 +2049,8 @@ Model {
 	  Ports			  [1]
 	  Position		  [955, 149, 985, 181]
 	  ZOrder		  -21
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[188, 390, 512, 629]'),StrPVP('Open','off'),MxPVP('AxesTitles',5"
-	  "3,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','-50'),StrPVP('YMax','400'),StrPVP('SaveName','ScopeData21'"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[188, 390, 512, 629]'),StrPVP('Open','off'),MxPVP('AxesTitles',2"
+	  "4,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','-50'),StrPVP('YMax','400'),StrPVP('SaveName','ScopeData21'"
 	  "),StrPVP('DataFormat','StructureWithTime'),StrPVP('BlockParamSampleTime','0'),StrPVP('LimitDataPoints','on'),StrPVP"
 	  "('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	  NumInputPorts		  "1"
@@ -2181,8 +2064,8 @@ Model {
 	  ZOrder		  -22
 	  BlockMirror		  on
 	  NamePlacement		  "alternate"
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[188, 390, 512, 629]'),StrPVP('Open','off'),MxPVP('AxesTitles',5"
-	  "3,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','-50'),StrPVP('YMax','400'),StrPVP('SaveName','ScopeData22'"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[188, 390, 512, 629]'),StrPVP('Open','off'),MxPVP('AxesTitles',2"
+	  "4,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','-50'),StrPVP('YMax','400'),StrPVP('SaveName','ScopeData22'"
 	  "),StrPVP('DataFormat','StructureWithTime'),StrPVP('BlockParamSampleTime','0'),StrPVP('LimitDataPoints','on'),StrPVP"
 	  "('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	  NumInputPorts		  "1"
@@ -2194,8 +2077,8 @@ Model {
 	  Ports			  [1]
 	  Position		  [520, 179, 550, 211]
 	  ZOrder		  -23
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[188, 390, 512, 629]'),StrPVP('Open','off'),MxPVP('AxesTitles',5"
-	  "3,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','-50'),StrPVP('YMax','400'),StrPVP('SaveName','ScopeData23'"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[188, 390, 512, 629]'),StrPVP('Open','off'),MxPVP('AxesTitles',2"
+	  "4,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','-50'),StrPVP('YMax','400'),StrPVP('SaveName','ScopeData23'"
 	  "),StrPVP('DataFormat','StructureWithTime'),StrPVP('BlockParamSampleTime','0'),StrPVP('LimitDataPoints','on'),StrPVP"
 	  "('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	  NumInputPorts		  "1"
@@ -2215,7 +2098,6 @@ Model {
 	    Name		    "Subsystem"
 	    Location		    [108, 261, 534, 788]
 	    Open		    off
-	    PortBlocksUseCompactNotation off
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
 	    ScreenColor		    "white"
@@ -2271,7 +2153,6 @@ Model {
 		Name			"Double click\non this for demo.5"
 		Location		[16, 52, 1092, 876]
 		Open			off
-		PortBlocksUseCompactNotation off
 		ModelBrowserVisibility	off
 		ModelBrowserWidth	200
 		ScreenColor		"white"
@@ -2447,7 +2328,6 @@ Model {
 	    Name		    "Subsystem1"
 	    Location		    [357, 299, 893, 844]
 	    Open		    off
-	    PortBlocksUseCompactNotation off
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
 	    ScreenColor		    "white"
@@ -2984,7 +2864,6 @@ Model {
 	Name			"CONTROL VECTOR U"
 	Location		[21, 26, 1097, 760]
 	Open			off
-	PortBlocksUseCompactNotation off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -3022,7 +2901,7 @@ Model {
 	  Ports			  [1]
 	  Position		  [475, 239, 505, 271]
 	  ZOrder		  -3
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 52, 1021, 759]'),StrPVP('Open','off'),MxPVP('AxesTitles',53,"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 52, 1021, 759]'),StrPVP('Open','off'),MxPVP('AxesTitles',24,"
 	  "'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','3.5'),StrPVP('YMin','144.101'),StrPVP('YMax','144.104')"
 	  ",StrPVP('SaveName','ScopeData7'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrPVP('B"
 	  "lockParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
@@ -3035,8 +2914,8 @@ Model {
 	  Ports			  [1]
 	  Position		  [550, 264, 580, 296]
 	  ZOrder		  -4
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[674, 56, 1019, 356]'),StrPVP('Open','off'),MxPVP('AxesTitles',5"
-	  "3,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','-0.6'),StrPVP('YMax','0.4'),StrPVP('SaveName','ScopeData8'"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[674, 56, 1019, 356]'),StrPVP('Open','off'),MxPVP('AxesTitles',2"
+	  "4,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','-0.6'),StrPVP('YMax','0.4'),StrPVP('SaveName','ScopeData8'"
 	  "),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrPVP('BlockParamSampleTime','0'),StrPV"
 	  "P('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	  NumInputPorts		  "1"
@@ -3049,7 +2928,7 @@ Model {
 	  Position		  [480, 289, 510, 321]
 	  ZOrder		  -5
 	  ScopeSpecificationString "C++SS(StrPVP('Location','[679, 422, 1019, 729]'),StrPVP('Open','off'),MxPVP('AxesTitles',"
-	  "53,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','-0.65'),StrPVP('YMax','0.35'),StrPVP('SaveName','ScopeDat"
+	  "24,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','-0.65'),StrPVP('YMax','0.35'),StrPVP('SaveName','ScopeDat"
 	  "a9'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrPVP('BlockParamSampleTime','0'),St"
 	  "rPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	  NumInputPorts		  "1"
@@ -3061,7 +2940,7 @@ Model {
 	  Ports			  [1]
 	  Position		  [590, 314, 620, 346]
 	  ZOrder		  -6
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 52, 1021, 729]'),StrPVP('Open','off'),MxPVP('AxesTitles',53,"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 52, 1021, 729]'),StrPVP('Open','off'),MxPVP('AxesTitles',24,"
 	  "'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','0'),StrPVP('YMax','150'),StrPVP('SaveName','ScopeData14'),St"
 	  "rPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrPVP('BlockParamSampleTime','0'),StrPVP('D"
 	  "ecimation','1'),StrPVP('BlockParamSampleInput','off'))"
@@ -3074,8 +2953,8 @@ Model {
 	  Ports			  [1]
 	  Position		  [515, 354, 545, 386]
 	  ZOrder		  -7
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[102, 458, 407, 762]'),StrPVP('Open','off'),MxPVP('AxesTitles',5"
-	  "3,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','0'),StrPVP('YMax','150'),StrPVP('SaveName','ScopeData11'),"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[102, 458, 407, 762]'),StrPVP('Open','off'),MxPVP('AxesTitles',2"
+	  "4,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','0'),StrPVP('YMax','150'),StrPVP('SaveName','ScopeData11'),"
 	  "StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrPVP('BlockParamSampleTime','0'),StrPVP("
 	  "'Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	  NumInputPorts		  "1"
@@ -3087,7 +2966,7 @@ Model {
 	  Ports			  [1]
 	  Position		  [500, 419, 530, 451]
 	  ZOrder		  -8
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[339, 59, 682, 351]'),StrPVP('Open','off'),MxPVP('AxesTitles',53"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[339, 59, 682, 351]'),StrPVP('Open','off'),MxPVP('AxesTitles',24"
 	  ",'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','0'),StrPVP('YMax','150'),StrPVP('SaveName','ScopeData12'),S"
 	  "trPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrPVP('BlockParamSampleTime','0'),StrPVP('"
 	  "Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
@@ -3155,6 +3034,14 @@ Model {
       ZOrder		      -4
     }
     Block {
+      BlockType		      Constant
+      Name		      "Constant"
+      SID		      "306"
+      Position		      [935, 115, 965, 145]
+      ZOrder		      -5
+      Value		      "1.0"
+    }
+    Block {
       BlockType		      SubSystem
       Name		      "DELAY - NOISE - FILTER"
       SID		      "52"
@@ -3168,7 +3055,6 @@ Model {
 	Name			"DELAY - NOISE - FILTER"
 	Location		[427, 50, 1503, 784]
 	Open			off
-	PortBlocksUseCompactNotation off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -3201,7 +3087,6 @@ Model {
 	    Name		    "DELAYS"
 	    Location		    [67, 31, 1143, 765]
 	    Open		    off
-	    PortBlocksUseCompactNotation off
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
 	    ScreenColor		    "white"
@@ -3474,7 +3359,6 @@ Model {
 	    Name		    "NOISY DATA SCOPES\nAttitude [rad]\nAng. rates [rad/sec]\nposition [m]\nPos. rates [m/s]1"
 	    Location		    [16, 52, 1096, 898]
 	    Open		    off
-	    PortBlocksUseCompactNotation off
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
 	    ScreenColor		    "white"
@@ -3513,7 +3397,7 @@ Model {
 	      Position		      [460, 464, 490, 496]
 	      ZOrder		      -3
 	      ScopeSpecificationString "C++SS(StrPVP('Location','[6, 424, 339, 732]'),StrPVP('Open','off'),MxPVP('AxesTitles'"
-	      ",53,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','0'),StrPVP('Y"
+	      ",24,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','0'),StrPVP('Y"
 	      "Max','0.009'),StrPVP('SaveName','ScopeData5'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints'"
 	      ",'off'),StrPVP('BlockParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	      NumInputPorts	      "1"
@@ -3526,7 +3410,7 @@ Model {
 	      Position		      [460, 534, 490, 566]
 	      ZOrder		      -4
 	      ScopeSpecificationString "C++SS(StrPVP('Location','[6, 424, 339, 732]'),StrPVP('Open','off'),MxPVP('AxesTitles'"
-	      ",53,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','0'),StrPVP('Y"
+	      ",24,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','0'),StrPVP('Y"
 	      "Max','0.009'),StrPVP('SaveName','ScopeData10'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints"
 	      "','off'),StrPVP('BlockParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	      NumInputPorts	      "1"
@@ -3539,7 +3423,7 @@ Model {
 	      Position		      [760, 359, 790, 391]
 	      ZOrder		      -5
 	      ScopeSpecificationString "C++SS(StrPVP('Location','[1, 52, 1017, 729]'),StrPVP('Open','off'),MxPVP('AxesTitles'"
-	      ",53,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','0'),StrPVP('Y"
+	      ",24,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','0'),StrPVP('Y"
 	      "Max','0.009'),StrPVP('SaveName','ScopeData17'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints"
 	      "','off'),StrPVP('BlockParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	      NumInputPorts	      "1"
@@ -3552,7 +3436,7 @@ Model {
 	      Position		      [460, 254, 490, 286]
 	      ZOrder		      -6
 	      ScopeSpecificationString "C++SS(StrPVP('Location','[471, 331, 869, 607]'),StrPVP('Open','off'),MxPVP('AxesTitle"
-	      "s',53,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','-2250'),StrPVP('YMax','2250'),StrPVP('SaveName','S"
+	      "s',24,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','-2250'),StrPVP('YMax','2250'),StrPVP('SaveName','S"
 	      "copeData15'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrPVP('BlockParamSampleT"
 	      "ime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	      NumInputPorts	      "1"
@@ -3565,7 +3449,7 @@ Model {
 	      Position		      [460, 184, 490, 216]
 	      ZOrder		      -7
 	      ScopeSpecificationString "C++SS(StrPVP('Location','[1, 52, 1017, 729]'),StrPVP('Open','off'),MxPVP('AxesTitles'"
-	      ",53,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','-0.25'),StrPVP('YMax','-0.05'),StrPVP('SaveName','Sc"
+	      ",24,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','-0.25'),StrPVP('YMax','-0.05'),StrPVP('SaveName','Sc"
 	      "opeData14'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrPVP('BlockParamSampleTi"
 	      "me','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	      NumInputPorts	      "1"
@@ -3578,7 +3462,7 @@ Model {
 	      Position		      [465, 324, 495, 356]
 	      ZOrder		      -8
 	      ScopeSpecificationString "C++SS(StrPVP('Location','[5, 52, 1021, 729]'),StrPVP('Open','off'),MxPVP('AxesTitles'"
-	      ",53,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','18'),StrPVP('YMin','-200'),StrPVP('YMax','200')"
+	      ",24,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','18'),StrPVP('YMin','-200'),StrPVP('YMax','200')"
 	      ",StrPVP('SaveName','ScopeData16'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrP"
 	      "VP('BlockParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	      NumInputPorts	      "1"
@@ -3591,7 +3475,7 @@ Model {
 	      Position		      [750, 219, 780, 251]
 	      ZOrder		      -9
 	      ScopeSpecificationString "C++SS(StrPVP('Location','[686, 299, 1019, 484]'),StrPVP('Open','off'),MxPVP('AxesTitl"
-	      "es',53,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','4'),StrPVP('YMin','-1'),StrPVP('YMax','1'),S"
+	      "es',24,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','4'),StrPVP('YMin','-1'),StrPVP('YMax','1'),S"
 	      "trPVP('SaveName','ScopeData1'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrPVP("
 	      "'BlockParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	      NumInputPorts	      "1"
@@ -3604,7 +3488,7 @@ Model {
 	      Position		      [750, 149, 780, 181]
 	      ZOrder		      -10
 	      ScopeSpecificationString "C++SS(StrPVP('Location','[5, 52, 1021, 729]'),StrPVP('Open','off'),MxPVP('AxesTitles'"
-	      ",53,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','0.25'),StrPVP('YMin','-1'),StrPVP('YMax','1'),S"
+	      ",24,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','0.25'),StrPVP('YMin','-1'),StrPVP('YMax','1'),S"
 	      "trPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrPVP('BlockParamSampleTime','0'),StrP"
 	      "VP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	      NumInputPorts	      "1"
@@ -3617,7 +3501,7 @@ Model {
 	      Position		      [750, 289, 780, 321]
 	      ZOrder		      -11
 	      ScopeSpecificationString "C++SS(StrPVP('Location','[686, 544, 1019, 734]'),StrPVP('Open','off'),MxPVP('AxesTitl"
-	      "es',53,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','0'),StrPVP"
+	      "es',24,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','0'),StrPVP"
 	      "('YMax','0.22'),StrPVP('SaveName','ScopeData2'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoint"
 	      "s','off'),StrPVP('BlockParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	      NumInputPorts	      "1"
@@ -3630,7 +3514,7 @@ Model {
 	      Position		      [535, 429, 565, 461]
 	      ZOrder		      -12
 	      ScopeSpecificationString "C++SS(StrPVP('Location','[6, 424, 339, 732]'),StrPVP('Open','off'),MxPVP('AxesTitles'"
-	      ",53,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','0'),StrPVP('Y"
+	      ",24,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','0'),StrPVP('Y"
 	      "Max','0.009'),StrPVP('SaveName','ScopeData4'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints'"
 	      ",'off'),StrPVP('BlockParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	      NumInputPorts	      "1"
@@ -3643,7 +3527,7 @@ Model {
 	      Position		      [535, 499, 565, 531]
 	      ZOrder		      -13
 	      ScopeSpecificationString "C++SS(StrPVP('Location','[6, 424, 339, 732]'),StrPVP('Open','off'),MxPVP('AxesTitles'"
-	      ",53,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','0'),StrPVP('Y"
+	      ",24,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','0'),StrPVP('Y"
 	      "Max','0.009'),StrPVP('SaveName','ScopeData6'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints'"
 	      ",'off'),StrPVP('BlockParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	      NumInputPorts	      "1"
@@ -3656,7 +3540,7 @@ Model {
 	      Position		      [460, 394, 490, 426]
 	      ZOrder		      -14
 	      ScopeSpecificationString "C++SS(StrPVP('Location','[5, 52, 1021, 729]'),StrPVP('Open','off'),MxPVP('AxesTitles'"
-	      ",53,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','10              '),StrPVP('YMin','-110.5'),StrP"
+	      ",24,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','10              '),StrPVP('YMin','-110.5'),StrP"
 	      "VP('YMax','-107.25'),StrPVP('SaveName','ScopeData18'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDat"
 	      "aPoints','off'),StrPVP('BlockParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off"
 	      "'))"
@@ -3768,7 +3652,6 @@ Model {
 	    Name		    "W. NORMAL NOISE1"
 	    Location		    [32, 240, 915, 850]
 	    Open		    off
-	    PortBlocksUseCompactNotation off
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
 	    ScreenColor		    "white"
@@ -3911,8 +3794,6 @@ Model {
 	      LibraryVersion	      "1.388"
 	      SourceBlock	      "simulink/Sources/Band-Limited\nWhite Noise"
 	      SourceType	      "Band-Limited White Noise."
-	      SourceProductName	      "Simulink"
-	      SourceProductBaseCode   "SL"
 	      ContentPreviewEnabled   off
 	      Cov		      "[0.0001]"
 	      Ts		      "0.01"
@@ -3929,8 +3810,6 @@ Model {
 	      LibraryVersion	      "1.388"
 	      SourceBlock	      "simulink/Sources/Band-Limited\nWhite Noise"
 	      SourceType	      "Band-Limited White Noise."
-	      SourceProductName	      "Simulink"
-	      SourceProductBaseCode   "SL"
 	      ContentPreviewEnabled   off
 	      Cov		      "[0.0001]"
 	      Ts		      "0.01"
@@ -3947,8 +3826,6 @@ Model {
 	      LibraryVersion	      "1.388"
 	      SourceBlock	      "simulink/Sources/Band-Limited\nWhite Noise"
 	      SourceType	      "Band-Limited White Noise."
-	      SourceProductName	      "Simulink"
-	      SourceProductBaseCode   "SL"
 	      ContentPreviewEnabled   off
 	      Cov		      "[0.0001]"
 	      Ts		      "0.01"
@@ -3965,8 +3842,6 @@ Model {
 	      LibraryVersion	      "1.388"
 	      SourceBlock	      "simulink/Sources/Band-Limited\nWhite Noise"
 	      SourceType	      "Band-Limited White Noise."
-	      SourceProductName	      "Simulink"
-	      SourceProductBaseCode   "SL"
 	      ContentPreviewEnabled   off
 	      Cov		      "[0.00001]"
 	      Ts		      "0.01"
@@ -3983,8 +3858,6 @@ Model {
 	      LibraryVersion	      "1.388"
 	      SourceBlock	      "simulink/Sources/Band-Limited\nWhite Noise"
 	      SourceType	      "Band-Limited White Noise."
-	      SourceProductName	      "Simulink"
-	      SourceProductBaseCode   "SL"
 	      ContentPreviewEnabled   off
 	      Cov		      "[0.00001]"
 	      Ts		      "0.01"
@@ -4001,8 +3874,6 @@ Model {
 	      LibraryVersion	      "1.388"
 	      SourceBlock	      "simulink/Sources/Band-Limited\nWhite Noise"
 	      SourceType	      "Band-Limited White Noise."
-	      SourceProductName	      "Simulink"
-	      SourceProductBaseCode   "SL"
 	      ContentPreviewEnabled   off
 	      Cov		      "[0.00001]"
 	      Ts		      "0.01"
@@ -4019,8 +3890,6 @@ Model {
 	      LibraryVersion	      "1.388"
 	      SourceBlock	      "simulink/Sources/Band-Limited\nWhite Noise"
 	      SourceType	      "Band-Limited White Noise."
-	      SourceProductName	      "Simulink"
-	      SourceProductBaseCode   "SL"
 	      ContentPreviewEnabled   off
 	      Cov		      "[0.00001]"
 	      Ts		      "0.01"
@@ -4242,8 +4111,10 @@ Model {
 	    Annotation {
 	      SID		      "416"
 	      Name		      "white noise (varius power)"
-	      Position		      [518, 10, 635, 24]
+	      Position		      [518, 10, 635, 22]
 	      InternalMargins	      [0, 0, 0, 0]
+	      FixedHeight	      off
+	      FixedWidth	      off
 	      ZOrder		      -1
 	    }
 	  }
@@ -4304,7 +4175,6 @@ Model {
 	Name			"DYNAMICS"
 	Location		[16, 52, 1092, 876]
 	Open			off
-	PortBlocksUseCompactNotation off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -4441,7 +4311,6 @@ Model {
 	Name			"FILTERED DATA SCOPES\nAttitude [rad]\nAng. rates [rad/sec]\nposition [m]\nPos. rates [m/s]1"
 	Location		[427, 50, 1503, 784]
 	Open			off
-	PortBlocksUseCompactNotation off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -4479,8 +4348,8 @@ Model {
 	  Ports			  [1]
 	  Position		  [460, 464, 490, 496]
 	  ZOrder		  -3
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[365, 433, 698, 741]'),StrPVP('Open','off'),MxPVP('AxesTitles',5"
-	  "3,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','0'),StrPVP('YMax','"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[365, 433, 698, 741]'),StrPVP('Open','off'),MxPVP('AxesTitles',2"
+	  "4,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','0'),StrPVP('YMax','"
 	  "0.009'),StrPVP('SaveName','ScopeData5'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),St"
 	  "rPVP('BlockParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	  NumInputPorts		  "1"
@@ -4492,8 +4361,8 @@ Model {
 	  Ports			  [1]
 	  Position		  [460, 534, 490, 566]
 	  ZOrder		  -4
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[304, 380, 637, 688]'),StrPVP('Open','off'),MxPVP('AxesTitles',5"
-	  "3,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','0'),StrPVP('YMax','"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[304, 380, 637, 688]'),StrPVP('Open','off'),MxPVP('AxesTitles',2"
+	  "4,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','0'),StrPVP('YMax','"
 	  "0.009'),StrPVP('SaveName','ScopeData10'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),S"
 	  "trPVP('BlockParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	  NumInputPorts		  "1"
@@ -4505,8 +4374,8 @@ Model {
 	  Ports			  [1]
 	  Position		  [460, 254, 490, 286]
 	  ZOrder		  -5
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[471, 331, 869, 607]'),StrPVP('Open','off'),MxPVP('AxesTitles',5"
-	  "3,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','-2250'),StrPVP('YMax','2250'),StrPVP('SaveName','ScopeData"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[471, 331, 869, 607]'),StrPVP('Open','off'),MxPVP('AxesTitles',2"
+	  "4,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','-2250'),StrPVP('YMax','2250'),StrPVP('SaveName','ScopeData"
 	  "15'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrPVP('BlockParamSampleTime','0'),St"
 	  "rPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	  NumInputPorts		  "1"
@@ -4518,8 +4387,8 @@ Model {
 	  Ports			  [1]
 	  Position		  [460, 184, 490, 216]
 	  ZOrder		  -6
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[118, 429, 703, 706]'),StrPVP('Open','off'),MxPVP('AxesTitles',5"
-	  "3,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','-0.25'),StrPVP('YMax','-0.05'),StrPVP('SaveName','ScopeDat"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[118, 429, 703, 706]'),StrPVP('Open','off'),MxPVP('AxesTitles',2"
+	  "4,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','-0.25'),StrPVP('YMax','-0.05'),StrPVP('SaveName','ScopeDat"
 	  "a14'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrPVP('BlockParamSampleTime','0'),S"
 	  "trPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	  NumInputPorts		  "1"
@@ -4531,7 +4400,7 @@ Model {
 	  Ports			  [1]
 	  Position		  [465, 324, 495, 356]
 	  ZOrder		  -7
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 52, 1021, 729]'),StrPVP('Open','off'),MxPVP('AxesTitles',53,"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 52, 1021, 729]'),StrPVP('Open','off'),MxPVP('AxesTitles',24,"
 	  "'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','18'),StrPVP('YMin','-200'),StrPVP('YMax','200'),StrPVP("
 	  "'SaveName','ScopeData16'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrPVP('BlockPar"
 	  "amSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
@@ -4622,7 +4491,7 @@ Model {
 	  Position		  [750, 219, 780, 251]
 	  ZOrder		  -15
 	  ScopeSpecificationString "C++SS(StrPVP('Location','[686, 299, 1019, 484]'),StrPVP('Open','off'),MxPVP('AxesTitles',"
-	  "53,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','4'),StrPVP('YMin','-1'),StrPVP('YMax','1'),StrPVP('S"
+	  "24,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','4'),StrPVP('YMin','-1'),StrPVP('YMax','1'),StrPVP('S"
 	  "aveName','ScopeData1'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrPVP('BlockParamS"
 	  "ampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	  NumInputPorts		  "1"
@@ -4634,7 +4503,7 @@ Model {
 	  Ports			  [1]
 	  Position		  [750, 149, 780, 181]
 	  ZOrder		  -16
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[7, 36, 1018, 388]'),StrPVP('Open','off'),MxPVP('AxesTitles',53,"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[7, 36, 1018, 388]'),StrPVP('Open','off'),MxPVP('AxesTitles',24,"
 	  "'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','0.25'),StrPVP('YMin','-1'),StrPVP('YMax','1'),StrPVP('D"
 	  "ataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrPVP('BlockParamSampleTime','0'),StrPVP('Decimati"
 	  "on','1'),StrPVP('BlockParamSampleInput','off'))"
@@ -4648,7 +4517,7 @@ Model {
 	  Position		  [750, 289, 780, 321]
 	  ZOrder		  -17
 	  ScopeSpecificationString "C++SS(StrPVP('Location','[686, 544, 1019, 734]'),StrPVP('Open','off'),MxPVP('AxesTitles',"
-	  "53,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','0'),StrPVP('YMax',"
+	  "24,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','0'),StrPVP('YMax',"
 	  "'0.22'),StrPVP('SaveName','ScopeData2'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),St"
 	  "rPVP('BlockParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	  NumInputPorts		  "1"
@@ -4660,8 +4529,8 @@ Model {
 	  Ports			  [1]
 	  Position		  [760, 359, 790, 391]
 	  ZOrder		  -18
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[681, 54, 1014, 362]'),StrPVP('Open','off'),MxPVP('AxesTitles',5"
-	  "3,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','-0.45'),StrPVP('YMa"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[681, 54, 1014, 362]'),StrPVP('Open','off'),MxPVP('AxesTitles',2"
+	  "4,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','-0.45'),StrPVP('YMa"
 	  "x','0.5'),StrPVP('SaveName','ScopeData17'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off')"
 	  ",StrPVP('BlockParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	  NumInputPorts		  "1"
@@ -4673,8 +4542,8 @@ Model {
 	  Ports			  [1]
 	  Position		  [535, 429, 565, 461]
 	  ZOrder		  -19
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[307, 431, 640, 739]'),StrPVP('Open','off'),MxPVP('AxesTitles',5"
-	  "3,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','0'),StrPVP('YMax','"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[307, 431, 640, 739]'),StrPVP('Open','off'),MxPVP('AxesTitles',2"
+	  "4,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','0'),StrPVP('YMax','"
 	  "0.009'),StrPVP('SaveName','ScopeData4'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),St"
 	  "rPVP('BlockParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	  NumInputPorts		  "1"
@@ -4686,8 +4555,8 @@ Model {
 	  Ports			  [1]
 	  Position		  [535, 499, 565, 531]
 	  ZOrder		  -20
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[335, 455, 668, 763]'),StrPVP('Open','off'),MxPVP('AxesTitles',5"
-	  "3,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','0'),StrPVP('YMax','"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[335, 455, 668, 763]'),StrPVP('Open','off'),MxPVP('AxesTitles',2"
+	  "4,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','0'),StrPVP('YMax','"
 	  "0.009'),StrPVP('SaveName','ScopeData6'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),St"
 	  "rPVP('BlockParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	  NumInputPorts		  "1"
@@ -4699,7 +4568,7 @@ Model {
 	  Ports			  [1]
 	  Position		  [460, 394, 490, 426]
 	  ZOrder		  -21
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[6, 52, 1022, 729]'),StrPVP('Open','off'),MxPVP('AxesTitles',53,"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[6, 52, 1022, 729]'),StrPVP('Open','off'),MxPVP('AxesTitles',24,"
 	  "'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','10              '),StrPVP('YMin','-110.5'),StrPVP('YMax"
 	  "','-107.25'),StrPVP('SaveName','ScopeData18'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','of"
 	  "f'),StrPVP('BlockParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
@@ -4878,9 +4747,8 @@ Model {
       Variant		      off
       System {
 	Name			"INITIAL CONDITIONS\nAttitude [rad]\nAng. rates [rad/sec]\nposition [m]\nPos. rates [m/s]\n"
-	Location		[53, 38, 965, 903]
+	Location		[69, 26, 1145, 760]
 	Open			off
-	PortBlocksUseCompactNotation off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -5109,55 +4977,39 @@ Model {
 	  DstPort		  12
 	}
 	Annotation {
-	  SID			  "431"
-	  Name			  "initial y pos"
-	  Position		  [55, 543, 106, 557]
-	  InternalMargins	  [0, 0, 0, 0]
-	  HorizontalAlignment	  "left"
-	  VerticalAlignment	  "top"
-	}
-	Annotation {
-	  SID			  "430"
-	  Name			  "initial x pos"
-	  Position		  [55, 443, 106, 457]
-	  InternalMargins	  [0, 0, 0, 0]
-	  HorizontalAlignment	  "left"
-	  VerticalAlignment	  "top"
-	}
-	Annotation {
-	  SID			  "429"
-	  Name			  "Initial z pos"
-	  Position		  [55, 333, 106, 347]
-	  InternalMargins	  [0, 0, 0, 0]
-	  HorizontalAlignment	  "left"
-	  VerticalAlignment	  "top"
-	}
-	Annotation {
 	  SID			  "417"
 	  Name			  "x1"
-	  Position		  [108, 29, 120, 43]
+	  Position		  [108, 29, 120, 41]
 	  InternalMargins	  [0, 0, 0, 0]
+	  FixedHeight		  off
+	  FixedWidth		  off
 	  ZOrder		  -1
 	}
 	Annotation {
 	  SID			  "418"
 	  Name			  "x12"
-	  Position		  [107, 600, 125, 614]
+	  Position		  [107, 600, 125, 612]
 	  InternalMargins	  [0, 0, 0, 0]
+	  FixedHeight		  off
+	  FixedWidth		  off
 	  ZOrder		  -2
 	}
 	Annotation {
 	  SID			  "419"
 	  Name			  "x10"
-	  Position		  [95, 495, 113, 509]
+	  Position		  [95, 495, 113, 507]
 	  InternalMargins	  [0, 0, 0, 0]
+	  FixedHeight		  off
+	  FixedWidth		  off
 	  ZOrder		  -3
 	}
 	Annotation {
 	  SID			  "420"
 	  Name			  "x8"
-	  Position		  [103, 383, 115, 397]
+	  Position		  [103, 383, 115, 395]
 	  InternalMargins	  [0, 0, 0, 0]
+	  FixedHeight		  off
+	  FixedWidth		  off
 	  ZOrder		  -4
 	}
       }
@@ -5186,7 +5038,6 @@ Model {
 	Name			"MOTORS+MODULES"
 	Location		[16, 52, 1094, 884]
 	Open			off
-	PortBlocksUseCompactNotation off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -5233,7 +5084,6 @@ Model {
 	    Name		    "MOTOR\nDYNAMICS"
 	    Location		    [928, 52, 1996, 876]
 	    Open		    off
-	    PortBlocksUseCompactNotation off
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
 	    ScreenColor		    "white"
@@ -5468,8 +5318,10 @@ Model {
 	    Annotation {
 	      SID		      "421"
 	      Name		      "Delays due to control output sequence\n2E-4 s each @ 115200 bps"
-	      Position		      [333, 446, 505, 472]
+	      Position		      [333, 446, 505, 468]
 	      InternalMargins	      [0, 0, 0, 0]
+	      FixedHeight	      off
+	      FixedWidth	      off
 	      ZOrder		      -1
 	    }
 	  }
@@ -5557,7 +5409,6 @@ Model {
 	Name			"Miscelaneous SCOPES"
 	Location		[21, 26, 1097, 760]
 	Open			off
-	PortBlocksUseCompactNotation off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -5596,7 +5447,7 @@ Model {
 	  Ports			  [1]
 	  Position		  [660, 424, 690, 456]
 	  ZOrder		  -3
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[1, 52, 1017, 729]'),StrPVP('Open','off'),MxPVP('AxesTitles',53,"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[1, 52, 1017, 729]'),StrPVP('Open','off'),MxPVP('AxesTitles',24,"
 	  "'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','18'),StrPVP('YMin','-200'),StrPVP('YMax','200'),StrPVP("
 	  "'SaveName','ScopeData16'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrPVP('BlockPar"
 	  "amSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
@@ -5609,7 +5460,7 @@ Model {
 	  Ports			  [1]
 	  Position		  [740, 124, 770, 156]
 	  ZOrder		  -4
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 60, 1029, 741]'),StrPVP('Open','off'),MxPVP('AxesTitles',53,"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 60, 1029, 741]'),StrPVP('Open','off'),MxPVP('AxesTitles',24,"
 	  "'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','-0.25'),StrPVP('YMax','-0.05'),StrPVP('SaveName','ScopeData1"
 	  "4'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrPVP('BlockParamSampleTime','0'),Str"
 	  "PVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
@@ -5622,7 +5473,7 @@ Model {
 	  Ports			  [1]
 	  Position		  [635, 339, 665, 371]
 	  ZOrder		  -5
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 56, 1029, 737]'),StrPVP('Open','off'),MxPVP('AxesTitles',53,"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 56, 1029, 737]'),StrPVP('Open','off'),MxPVP('AxesTitles',24,"
 	  "'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','-2250'),StrPVP('YMax','2250'),StrPVP('SaveName','ScopeData15"
 	  "'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrPVP('BlockParamSampleTime','0'),StrP"
 	  "VP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
@@ -5635,7 +5486,7 @@ Model {
 	  Ports			  [1]
 	  Position		  [545, 464, 575, 496]
 	  ZOrder		  -6
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 60, 1029, 741]'),StrPVP('Open','off'),MxPVP('AxesTitles',53,"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 60, 1029, 741]'),StrPVP('Open','off'),MxPVP('AxesTitles',24,"
 	  "'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','10              '),StrPVP('YMin','-110.5'),StrPVP('YMax"
 	  "','-107.25'),StrPVP('SaveName','ScopeData18'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','of"
 	  "f'),StrPVP('BlockParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
@@ -5648,7 +5499,7 @@ Model {
 	  Ports			  [1]
 	  Position		  [590, 534, 620, 566]
 	  ZOrder		  -7
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 60, 1029, 741]'),StrPVP('Open','off'),MxPVP('AxesTitles',53,"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 60, 1029, 741]'),StrPVP('Open','off'),MxPVP('AxesTitles',24,"
 	  "'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','-4.75e-015'),StrPVP('"
 	  "YMax','0'),StrPVP('SaveName','ScopeData25'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'"
 	  "),StrPVP('BlockParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
@@ -5661,7 +5512,7 @@ Model {
 	  Ports			  [1]
 	  Position		  [590, 584, 620, 616]
 	  ZOrder		  -8
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 60, 1029, 741]'),StrPVP('Open','off'),MxPVP('AxesTitles',53,"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 60, 1029, 741]'),StrPVP('Open','off'),MxPVP('AxesTitles',24,"
 	  "'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','-4.75e-015'),StrPVP('"
 	  "YMax','0'),StrPVP('SaveName','ScopeData3'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off')"
 	  ",StrPVP('BlockParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
@@ -5726,6 +5577,254 @@ Model {
       }
     }
     Block {
+      BlockType		      Reference
+      Name		      "PID Controller"
+      SID		      "302"
+      Ports		      [1, 1]
+      Position		      [1075, 142, 1115, 178]
+      ZOrder		      -15
+      LibraryVersion	      "1.388"
+      SourceBlock	      "simulink/Continuous/PID Controller"
+      SourceType	      "PID 1dof"
+      ContentPreviewEnabled   off
+      Controller	      "PID"
+      TimeDomain	      "Continuous-time"
+      SampleTime	      "-1"
+      IntegratorMethod	      "Forward Euler"
+      FilterMethod	      "Forward Euler"
+      Form		      "Parallel"
+      UseFilter		      on
+      ControllerParametersSource "internal"
+      P			      "0.8"
+      I			      "0.2"
+      D			      "0"
+      N			      "100"
+      InitialConditionSource  "internal"
+      InitialConditionForIntegrator "0"
+      InitialConditionForFilter	"0"
+      ExternalReset	      "none"
+      IgnoreLimit	      off
+      ZeroCross		      on
+      LimitOutput	      off
+      UpperSaturationLimit    "inf"
+      LowerSaturationLimit    "-inf"
+      LinearizeAsGain	      off
+      AntiWindupMode	      "none"
+      Kb		      "1"
+      TrackingMode	      off
+      Kt		      "1"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+      LockScale		      off
+      PParamMin		      "[]"
+      PParamMax		      "[]"
+      PParamDataTypeStr	      "Inherit: Inherit via internal rule"
+      IParamMin		      "[]"
+      IParamMax		      "[]"
+      IParamDataTypeStr	      "Inherit: Inherit via internal rule"
+      DParamMin		      "[]"
+      DParamMax		      "[]"
+      DParamDataTypeStr	      "Inherit: Inherit via internal rule"
+      NParamMin		      "[]"
+      NParamMax		      "[]"
+      NParamDataTypeStr	      "Inherit: Inherit via internal rule"
+      KbParamMin	      "[]"
+      KbParamMax	      "[]"
+      KbParamDataTypeStr      "Inherit: Inherit via internal rule"
+      KtParamMin	      "[]"
+      KtParamMax	      "[]"
+      KtParamDataTypeStr      "Inherit: Inherit via internal rule"
+      POutMin		      "[]"
+      POutMax		      "[]"
+      POutDataTypeStr	      "Inherit: Inherit via internal rule"
+      PGainOutDataTypeStr     "Inherit: Inherit via internal rule"
+      PProdOutDataTypeStr     "Inherit: Inherit via internal rule"
+      IOutMin		      "[]"
+      IOutMax		      "[]"
+      IOutDataTypeStr	      "Inherit: Inherit via internal rule"
+      IGainOutDataTypeStr     "Inherit: Inherit via internal rule"
+      IProdOutDataTypeStr     "Inherit: Inherit via internal rule"
+      DOutMin		      "[]"
+      DOutMax		      "[]"
+      DOutDataTypeStr	      "Inherit: Inherit via internal rule"
+      DGainOutDataTypeStr     "Inherit: Inherit via internal rule"
+      DProdOutDataTypeStr     "Inherit: Inherit via internal rule"
+      NOutMin		      "[]"
+      NOutMax		      "[]"
+      NOutDataTypeStr	      "Inherit: Inherit via internal rule"
+      NGainOutDataTypeStr     "Inherit: Inherit via internal rule"
+      NProdOutDataTypeStr     "Inherit: Inherit via internal rule"
+      KbOutMin		      "[]"
+      KbOutMax		      "[]"
+      KbOutDataTypeStr	      "Inherit: Inherit via internal rule"
+      KtOutMin		      "[]"
+      KtOutMax		      "[]"
+      KtOutDataTypeStr	      "Inherit: Inherit via internal rule"
+      IntegratorOutMin	      "[]"
+      IntegratorOutMax	      "[]"
+      IntegratorOutDataTypeStr "Inherit: Inherit via internal rule"
+      FilterOutMin	      "[]"
+      FilterOutMax	      "[]"
+      FilterOutDataTypeStr    "Inherit: Inherit via internal rule"
+      SumOutMin		      "[]"
+      SumOutMax		      "[]"
+      SumOutDataTypeStr	      "Inherit: Inherit via internal rule"
+      SumI1OutMin	      "[]"
+      SumI1OutMax	      "[]"
+      SumI1OutDataTypeStr     "Inherit: Inherit via internal rule"
+      SumI2OutMin	      "[]"
+      SumI2OutMax	      "[]"
+      SumI2OutDataTypeStr     "Inherit: Inherit via internal rule"
+      SumI3OutMin	      "[]"
+      SumI3OutMax	      "[]"
+      SumI3OutDataTypeStr     "Inherit: Inherit via internal rule"
+      SumDOutMin	      "[]"
+      SumDOutMax	      "[]"
+      SumDOutDataTypeStr      "Inherit: Inherit via internal rule"
+      SumAccumDataTypeStr     "Inherit: Inherit via internal rule"
+      SumI1AccumDataTypeStr   "Inherit: Inherit via internal rule"
+      SumI2AccumDataTypeStr   "Inherit: Inherit via internal rule"
+      SumI3AccumDataTypeStr   "Inherit: Inherit via internal rule"
+      SumDAccumDataTypeStr    "Inherit: Inherit via internal rule"
+      SaturationOutMin	      "[]"
+      SaturationOutMax	      "[]"
+      SaturationOutDataTypeStr "Inherit: Same as input"
+      IntegratorContinuousStateAttributes "''"
+      IntegratorStateMustResolveToSignalObject off
+      IntegratorRTWStateStorageClass "Auto"
+      FilterContinuousStateAttributes "''"
+      FilterStateMustResolveToSignalObject off
+      FilterRTWStateStorageClass "Auto"
+      DifferentiatorICPrevScaledInput "0"
+      DifferentiatorOutMin    "[]"
+      DifferentiatorOutMax    "[]"
+      DifferentiatorOutDataTypeStr "Inherit: Inherit via internal rule"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PID Controller1"
+      SID		      "303"
+      Ports		      [1, 1]
+      Position		      [1075, 202, 1115, 238]
+      ZOrder		      -16
+      LibraryVersion	      "1.388"
+      SourceBlock	      "simulink/Continuous/PID Controller"
+      SourceType	      "PID 1dof"
+      ContentPreviewEnabled   off
+      Controller	      "PID"
+      TimeDomain	      "Continuous-time"
+      SampleTime	      "-1"
+      IntegratorMethod	      "Forward Euler"
+      FilterMethod	      "Forward Euler"
+      Form		      "Parallel"
+      UseFilter		      on
+      ControllerParametersSource "internal"
+      P			      "1"
+      I			      "0.2"
+      D			      "0"
+      N			      "100"
+      InitialConditionSource  "internal"
+      InitialConditionForIntegrator "0"
+      InitialConditionForFilter	"0"
+      ExternalReset	      "none"
+      IgnoreLimit	      off
+      ZeroCross		      on
+      LimitOutput	      off
+      UpperSaturationLimit    "inf"
+      LowerSaturationLimit    "-inf"
+      LinearizeAsGain	      off
+      AntiWindupMode	      "none"
+      Kb		      "1"
+      TrackingMode	      off
+      Kt		      "1"
+      RndMeth		      "Floor"
+      SaturateOnIntegerOverflow	off
+      LockScale		      off
+      PParamMin		      "[]"
+      PParamMax		      "[]"
+      PParamDataTypeStr	      "Inherit: Inherit via internal rule"
+      IParamMin		      "[]"
+      IParamMax		      "[]"
+      IParamDataTypeStr	      "Inherit: Inherit via internal rule"
+      DParamMin		      "[]"
+      DParamMax		      "[]"
+      DParamDataTypeStr	      "Inherit: Inherit via internal rule"
+      NParamMin		      "[]"
+      NParamMax		      "[]"
+      NParamDataTypeStr	      "Inherit: Inherit via internal rule"
+      KbParamMin	      "[]"
+      KbParamMax	      "[]"
+      KbParamDataTypeStr      "Inherit: Inherit via internal rule"
+      KtParamMin	      "[]"
+      KtParamMax	      "[]"
+      KtParamDataTypeStr      "Inherit: Inherit via internal rule"
+      POutMin		      "[]"
+      POutMax		      "[]"
+      POutDataTypeStr	      "Inherit: Inherit via internal rule"
+      PGainOutDataTypeStr     "Inherit: Inherit via internal rule"
+      PProdOutDataTypeStr     "Inherit: Inherit via internal rule"
+      IOutMin		      "[]"
+      IOutMax		      "[]"
+      IOutDataTypeStr	      "Inherit: Inherit via internal rule"
+      IGainOutDataTypeStr     "Inherit: Inherit via internal rule"
+      IProdOutDataTypeStr     "Inherit: Inherit via internal rule"
+      DOutMin		      "[]"
+      DOutMax		      "[]"
+      DOutDataTypeStr	      "Inherit: Inherit via internal rule"
+      DGainOutDataTypeStr     "Inherit: Inherit via internal rule"
+      DProdOutDataTypeStr     "Inherit: Inherit via internal rule"
+      NOutMin		      "[]"
+      NOutMax		      "[]"
+      NOutDataTypeStr	      "Inherit: Inherit via internal rule"
+      NGainOutDataTypeStr     "Inherit: Inherit via internal rule"
+      NProdOutDataTypeStr     "Inherit: Inherit via internal rule"
+      KbOutMin		      "[]"
+      KbOutMax		      "[]"
+      KbOutDataTypeStr	      "Inherit: Inherit via internal rule"
+      KtOutMin		      "[]"
+      KtOutMax		      "[]"
+      KtOutDataTypeStr	      "Inherit: Inherit via internal rule"
+      IntegratorOutMin	      "[]"
+      IntegratorOutMax	      "[]"
+      IntegratorOutDataTypeStr "Inherit: Inherit via internal rule"
+      FilterOutMin	      "[]"
+      FilterOutMax	      "[]"
+      FilterOutDataTypeStr    "Inherit: Inherit via internal rule"
+      SumOutMin		      "[]"
+      SumOutMax		      "[]"
+      SumOutDataTypeStr	      "Inherit: Inherit via internal rule"
+      SumI1OutMin	      "[]"
+      SumI1OutMax	      "[]"
+      SumI1OutDataTypeStr     "Inherit: Inherit via internal rule"
+      SumI2OutMin	      "[]"
+      SumI2OutMax	      "[]"
+      SumI2OutDataTypeStr     "Inherit: Inherit via internal rule"
+      SumI3OutMin	      "[]"
+      SumI3OutMax	      "[]"
+      SumI3OutDataTypeStr     "Inherit: Inherit via internal rule"
+      SumDOutMin	      "[]"
+      SumDOutMax	      "[]"
+      SumDOutDataTypeStr      "Inherit: Inherit via internal rule"
+      SumAccumDataTypeStr     "Inherit: Inherit via internal rule"
+      SumI1AccumDataTypeStr   "Inherit: Inherit via internal rule"
+      SumI2AccumDataTypeStr   "Inherit: Inherit via internal rule"
+      SumI3AccumDataTypeStr   "Inherit: Inherit via internal rule"
+      SumDAccumDataTypeStr    "Inherit: Inherit via internal rule"
+      SaturationOutMin	      "[]"
+      SaturationOutMax	      "[]"
+      SaturationOutDataTypeStr "Inherit: Same as input"
+      IntegratorContinuousStateAttributes "''"
+      IntegratorStateMustResolveToSignalObject off
+      IntegratorRTWStateStorageClass "Auto"
+      FilterContinuousStateAttributes "''"
+      FilterStateMustResolveToSignalObject off
+      FilterRTWStateStorageClass "Auto"
+      DifferentiatorICPrevScaledInput "0"
+      DifferentiatorOutMin    "[]"
+      DifferentiatorOutMax    "[]"
+      DifferentiatorOutDataTypeStr "Inherit: Inherit via internal rule"
+    }
+    Block {
       BlockType		      SubSystem
       Name		      "PROP. ANG SPEEDS SCOPES"
       SID		      "176"
@@ -5738,7 +5837,6 @@ Model {
 	Name			"PROP. ANG SPEEDS SCOPES"
 	Location		[16, 52, 1087, 876]
 	Open			off
-	PortBlocksUseCompactNotation off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -5775,7 +5873,7 @@ Model {
 	  Ports			  [1]
 	  Position		  [475, 239, 505, 271]
 	  ZOrder		  -3
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 52, 1021, 759]'),StrPVP('Open','off'),MxPVP('AxesTitles',53,"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 52, 1021, 759]'),StrPVP('Open','off'),MxPVP('AxesTitles',24,"
 	  "'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','3.5'),StrPVP('YMin','144.101'),StrPVP('YMax','144.104')"
 	  ",StrPVP('SaveName','ScopeData7'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrPVP('B"
 	  "lockParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
@@ -5788,7 +5886,7 @@ Model {
 	  Ports			  [1]
 	  Position		  [535, 269, 565, 301]
 	  ZOrder		  -4
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 52, 1021, 729]'),StrPVP('Open','off'),MxPVP('AxesTitles',53,"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 52, 1021, 729]'),StrPVP('Open','off'),MxPVP('AxesTitles',24,"
 	  "'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','142.5'),StrPVP('YMax','147.5'),StrPVP('SaveName','ScopeData8"
 	  "'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrPVP('BlockParamSampleTime','0'),StrP"
 	  "VP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
@@ -5801,7 +5899,7 @@ Model {
 	  Ports			  [1]
 	  Position		  [480, 299, 510, 331]
 	  ZOrder		  -5
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 52, 1021, 729]'),StrPVP('Open','off'),MxPVP('AxesTitles',53,"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 52, 1021, 729]'),StrPVP('Open','off'),MxPVP('AxesTitles',24,"
 	  "'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','0'),StrPVP('YMax','150'),StrPVP('SaveName','ScopeData9'),Str"
 	  "PVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrPVP('BlockParamSampleTime','0'),StrPVP('De"
 	  "cimation','1'),StrPVP('BlockParamSampleInput','off'))"
@@ -5814,7 +5912,7 @@ Model {
 	  Ports			  [1]
 	  Position		  [535, 329, 565, 361]
 	  ZOrder		  -6
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 52, 1021, 729]'),StrPVP('Open','off'),MxPVP('AxesTitles',53,"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 52, 1021, 729]'),StrPVP('Open','off'),MxPVP('AxesTitles',24,"
 	  "'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','0'),StrPVP('YMax','150'),StrPVP('SaveName','ScopeData14'),St"
 	  "rPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrPVP('BlockParamSampleTime','0'),StrPVP('D"
 	  "ecimation','1'),StrPVP('BlockParamSampleInput','off'))"
@@ -5872,19 +5970,12 @@ Model {
       Ports		      [0, 1]
       Position		      [910, 370, 940, 400]
       ZOrder		      2
-      Commented		      "on"
-      LibraryVersion	      "1.401"
+      LibraryVersion	      "1.388"
       SourceBlock	      "simulink/Sources/Repeating\nSequence"
       SourceType	      "Repeating table"
-      SourceProductName	      "Simulink"
-      SourceProductBaseCode   "SL"
       ContentPreviewEnabled   off
       rep_seq_t		      "[0 5 9.99 10 15 19.99 20 25]"
       rep_seq_y		      "[3 3 3       5 5 5 3 3]"
-      Port {
-	PortNumber		1
-	Name			"z pos setpoint"
-      }
     }
     Block {
       BlockType		      SubSystem
@@ -5901,7 +5992,6 @@ Model {
 	Name			"SCOPES\nAttitude [rad]\nAng. rates [rad/sec]\nposition [m]\nPos. rates [m/s]"
 	Location		[16, 52, 1088, 898]
 	Open			off
-	PortBlocksUseCompactNotation off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -5950,8 +6040,8 @@ Model {
 	  Ports			  [1]
 	  Position		  [750, 219, 780, 251]
 	  ZOrder		  -4
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[346, 428, 674, 731]'),StrPVP('Open','off'),MxPVP('AxesTitles',5"
-	  "3,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','4'),StrPVP('YMin','-0.08'),StrPVP('YMax','0.16'),StrP"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[346, 428, 674, 731]'),StrPVP('Open','off'),MxPVP('AxesTitles',2"
+	  "4,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','4'),StrPVP('YMin','-0.08'),StrPVP('YMax','0.16'),StrP"
 	  "VP('SaveName','ScopeData1'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrPVP('BlockP"
 	  "aramSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	  NumInputPorts		  "1"
@@ -5974,7 +6064,7 @@ Model {
 	  Ports			  [1]
 	  Position		  [460, 254, 490, 286]
 	  ZOrder		  -6
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[344, 65, 657, 361]'),StrPVP('Open','off'),MxPVP('AxesTitles',53"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[344, 65, 657, 361]'),StrPVP('Open','off'),MxPVP('AxesTitles',24"
 	  ",'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','-1.75'),StrPVP('YMax','1.75'),StrPVP('SaveName','ScopeData1"
 	  "5'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrPVP('BlockParamSampleTime','0'),Str"
 	  "PVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
@@ -5987,7 +6077,7 @@ Model {
 	  Ports			  [1]
 	  Position		  [750, 149, 780, 181]
 	  ZOrder		  -7
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[7, 422, 337, 732]'),StrPVP('Open','off'),MxPVP('AxesTitles',53,"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[7, 422, 337, 732]'),StrPVP('Open','off'),MxPVP('AxesTitles',24,"
 	  "'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','0.25'),StrPVP('YMin','-0.008'),StrPVP('YMax','0.005'),S"
 	  "trPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrPVP('BlockParamSampleTime','0'),StrPVP('"
 	  "Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
@@ -6011,7 +6101,7 @@ Model {
 	  Ports			  [1]
 	  Position		  [460, 184, 490, 216]
 	  ZOrder		  -9
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[47, 226, 377, 528]'),StrPVP('Open','off'),MxPVP('AxesTitles',53"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[47, 226, 377, 528]'),StrPVP('Open','off'),MxPVP('AxesTitles',24"
 	  ",'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','7'),StrPVP('YMin','-0.15'),StrPVP('YMax','0.125'),StrP"
 	  "VP('SaveName','ScopeData14'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrPVP('Block"
 	  "ParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
@@ -6025,7 +6115,7 @@ Model {
 	  Position		  [760, 429, 790, 461]
 	  ZOrder		  -10
 	  ScopeSpecificationString "C++SS(StrPVP('Location','[1006, 72, 2022, 749]'),StrPVP('Open','off'),MxPVP('AxesTitles',"
-	  "53,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','-1'),StrPVP('YMax'"
+	  "24,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','-1'),StrPVP('YMax'"
 	  ",'1'),StrPVP('SaveName','ScopeData24'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),Str"
 	  "PVP('BlockParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	  NumInputPorts		  "1"
@@ -6048,7 +6138,7 @@ Model {
 	  Ports			  [1]
 	  Position		  [455, 464, 485, 496]
 	  ZOrder		  -12
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 60, 1029, 741]'),StrPVP('Open','off'),MxPVP('AxesTitles',53,"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 60, 1029, 741]'),StrPVP('Open','off'),MxPVP('AxesTitles',24,"
 	  "'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5'),StrPVP('YMin','-4.75e-015'),StrPVP('YMax','0'),StrP"
 	  "VP('SaveName','ScopeData25'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrPVP('Block"
 	  "ParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
@@ -6062,7 +6152,7 @@ Model {
 	  Position		  [755, 499, 785, 531]
 	  ZOrder		  -13
 	  ScopeSpecificationString "C++SS(StrPVP('Location','[868, 350, 1884, 1057]'),StrPVP('Open','off'),StrPVP('ZoomMode',"
-	  "'yonly'),MxPVP('AxesTitles',53,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPV"
+	  "'yonly'),MxPVP('AxesTitles',24,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPV"
 	  "P('YMin','-1'),StrPVP('YMax','1'),StrPVP('SaveName','ScopeData26'),StrPVP('DataFormat','StructureWithTime'),StrPVP("
 	  "'LimitDataPoints','off'),StrPVP('BlockParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput'"
 	  ",'off'))"
@@ -6087,7 +6177,7 @@ Model {
 	  Position		  [750, 289, 780, 321]
 	  ZOrder		  -15
 	  ScopeSpecificationString "C++SS(StrPVP('Location','[681, 422, 1018, 731]'),StrPVP('Open','off'),MxPVP('AxesTitles',"
-	  "53,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','-175'),StrPVP('YMa"
+	  "24,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','-175'),StrPVP('YMa"
 	  "x','0'),StrPVP('SaveName','ScopeData2'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),St"
 	  "rPVP('BlockParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	  NumInputPorts		  "1"
@@ -6110,7 +6200,7 @@ Model {
 	  Ports			  [1]
 	  Position		  [465, 324, 495, 356]
 	  ZOrder		  -17
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[670, 60, 922, 322]'),StrPVP('Open','off'),MxPVP('AxesTitles',53"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[670, 60, 922, 322]'),StrPVP('Open','off'),MxPVP('AxesTitles',24"
 	  ",'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','18'),StrPVP('YMin','-0.275'),StrPVP('YMax','0.15'),Str"
 	  "PVP('SaveName','ScopeData16'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),StrPVP('Bloc"
 	  "kParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
@@ -6123,7 +6213,7 @@ Model {
 	  Ports			  [1]
 	  Position		  [455, 534, 485, 566]
 	  ZOrder		  -18
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 60, 1029, 741]'),StrPVP('Open','off'),MxPVP('AxesTitles',53,"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 60, 1029, 741]'),StrPVP('Open','off'),MxPVP('AxesTitles',24,"
 	  "'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','-143.75'),StrPVP('YMa"
 	  "x','-141.75'),StrPVP('SaveName','ScopeData27'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','o"
 	  "ff'),StrPVP('BlockParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
@@ -6136,8 +6226,8 @@ Model {
 	  Ports			  [1]
 	  Position		  [760, 359, 790, 391]
 	  ZOrder		  -19
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[677, 77, 1010, 385]'),StrPVP('Open','off'),MxPVP('AxesTitles',5"
-	  "3,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','0'),StrPVP('YMax','"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[677, 77, 1010, 385]'),StrPVP('Open','off'),MxPVP('AxesTitles',2"
+	  "4,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','5               '),StrPVP('YMin','0'),StrPVP('YMax','"
 	  "0.009'),StrPVP('SaveName','ScopeData17'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','off'),S"
 	  "trPVP('BlockParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
 	  NumInputPorts		  "1"
@@ -6149,7 +6239,7 @@ Model {
 	  Ports			  [1]
 	  Position		  [460, 394, 490, 426]
 	  ZOrder		  -20
-	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 52, 1021, 729]'),StrPVP('Open','off'),MxPVP('AxesTitles',53,"
+	  ScopeSpecificationString "C++SS(StrPVP('Location','[5, 52, 1021, 729]'),StrPVP('Open','off'),MxPVP('AxesTitles',24,"
 	  "'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('TimeRange','10              '),StrPVP('YMin','-110.5'),StrPVP('YMax"
 	  "','-107.25'),StrPVP('SaveName','ScopeData18'),StrPVP('DataFormat','StructureWithTime'),StrPVP('LimitDataPoints','of"
 	  "f'),StrPVP('BlockParamSampleTime','0'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
@@ -6337,7 +6427,7 @@ Model {
       Position		      [1135, 414, 1165, 446]
       ZOrder		      -22
       ScopeSpecificationString "C++SS(StrPVP('Location','[188, 390, 512, 629]'),StrPVP('Open','off'),MxPVP('AxesTitles"
-      "',53,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','-50'),StrPVP('YMax','400'),StrPVP('SaveName','ScopeD"
+      "',24,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','-50'),StrPVP('YMax','400'),StrPVP('SaveName','ScopeD"
       "ata13'),StrPVP('DataFormat','StructureWithTime'),StrPVP('BlockParamSampleTime','0'),StrPVP('LimitDataPoints','on"
       "'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
       NumInputPorts	      "1"
@@ -6350,7 +6440,7 @@ Model {
       Position		      [1080, 369, 1110, 401]
       ZOrder		      -23
       ScopeSpecificationString "C++SS(StrPVP('Location','[271, 457, 595, 696]'),StrPVP('Open','off'),MxPVP('AxesTitles"
-      "',53,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','75'),StrPVP('YMax','400'),StrPVP('SaveName','ScopeDa"
+      "',24,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','75'),StrPVP('YMax','400'),StrPVP('SaveName','ScopeDa"
       "ta19'),StrPVP('DataFormat','StructureWithTime'),StrPVP('BlockParamSampleTime','0'),StrPVP('LimitDataPoints','on'"
       "),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
       NumInputPorts	      "1"
@@ -6374,16 +6464,16 @@ Model {
       ",'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.1607843137254"
       "9;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.058823529411764"
       "7 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedCh"
-      "annelNames',{{}},'NumLines',0,'LineNames',{{[]}},'ShowContent',true,'Placement',1)},'DisplayPropertyDefaults',st"
-      "ruct('MinYLimReal','-0.53354','MaxYLimReal','2.15068','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','2.150"
-      "68','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',"
-      "[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 "
-      "0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;"
-      "0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<"
-      "SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',0,'LineNames',{{[]}},'ShowCon"
-      "tent',true,'Placement',1)),extmgr.Configuration('Tools','Plot Navigation',true,'OnceAtStop',false,'PreviousAutos"
-      "cale','XY'),extmgr.Configuration('Tools','Measurements',true,'Version','2017b')),'Version','2017b','Location',[1"
-      " 573 406 1079],'WindowStyle','docked','VisibleAtModelOpen','on')"
+      "annelNames',{{}},'NumLines',1,'LineNames',{{'Subsystem/2'}},'ShowContent',true,'Placement',1)},'DisplayPropertyD"
+      "efaults',struct('MinYLimReal','-0.53354','MaxYLimReal','2.15068','YLabelReal','','MinYLimMag','0.00000','MaxYLim"
+      "Mag','2.15068','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'Axes"
+      "TickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.074509"
+      "8039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.074509"
+      "8039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],"
+      "'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',0,'LineNames',{{[]"
+      "}},'ShowContent',true,'Placement',1)),extmgr.Configuration('Tools','Plot Navigation',true,'OnceAtStop',false,'Pr"
+      "eviousAutoscale','XY'),extmgr.Configuration('Tools','Measurements',true,'Version','2016b')),'Version','2016b','L"
+      "ocation',[4 634 440 795],'WindowStyle','docked','VisibleAtModelOpen','on')"
       NumInputPorts	      "1"
     }
     Block {
@@ -6403,16 +6493,16 @@ Model {
       "'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549"
       ";0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647"
       " 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedCha"
-      "nnelNames',{{}},'NumLines',0,'LineNames',{{[]}},'ShowContent',true,'Placement',1)},'DisplayPropertyDefaults',str"
-      "uct('MinYLimReal','0.57052','MaxYLimReal','5.17143','YLabelReal','','MinYLimMag','0.57052','MaxYLimMag','5.17143"
-      "','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0"
-      ".686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0."
-      "623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0."
-      "717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<Si"
-      "gnalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',0,'LineNames',{{[]}},'ShowConte"
-      "nt',true,'Placement',1)),extmgr.Configuration('Tools','Plot Navigation',true,'OnceAtStop',false,'PreviousAutosca"
-      "le','XY'),extmgr.Configuration('Tools','Measurements',true,'Version','2017b')),'Version','2017b','Location',[1 5"
-      "73 406 1079],'WindowStyle','docked','VisibleAtModelOpen','on')"
+      "nnelNames',{{}},'NumLines',1,'LineNames',{{'Subsystem/3'}},'ShowContent',true,'Placement',1)},'DisplayPropertyDe"
+      "faults',struct('MinYLimReal','0.57052','MaxYLimReal','5.17143','YLabelReal','','MinYLimMag','0.57052','MaxYLimMa"
+      "g','5.17143','LegendVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTi"
+      "ckColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.07450980"
+      "39215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.07450980"
+      "39215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'T"
+      "itle','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',0,'LineNames',{{[]}}"
+      ",'ShowContent',true,'Placement',1)),extmgr.Configuration('Tools','Plot Navigation',true,'OnceAtStop',false,'Prev"
+      "iousAutoscale','XY'),extmgr.Configuration('Tools','Measurements',true,'Version','2016b')),'Version','2016b','Loc"
+      "ation',[447 634 883 795],'WindowStyle','docked','VisibleAtModelOpen','on')"
       NumInputPorts	      "1"
     }
     Block {
@@ -6423,7 +6513,7 @@ Model {
       Position		      [1095, 64, 1125, 96]
       ZOrder		      -26
       ScopeSpecificationString "C++SS(StrPVP('Location','[271, 457, 595, 696]'),StrPVP('Open','off'),MxPVP('AxesTitles"
-      "',53,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','75'),StrPVP('YMax','400'),StrPVP('SaveName','ScopeDa"
+      "',24,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','75'),StrPVP('YMax','400'),StrPVP('SaveName','ScopeDa"
       "ta30'),StrPVP('DataFormat','StructureWithTime'),StrPVP('BlockParamSampleTime','0'),StrPVP('LimitDataPoints','on'"
       "),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
       NumInputPorts	      "1"
@@ -6438,7 +6528,7 @@ Model {
       BlockMirror	      on
       NamePlacement	      "alternate"
       ScopeSpecificationString "C++SS(StrPVP('Location','[791, 512, 1115, 751]'),StrPVP('Open','off'),MxPVP('AxesTitle"
-      "s',53,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','75'),StrPVP('YMax','400'),StrPVP('SaveName','ScopeD"
+      "s',24,'struct(''axes1'',''%<SignalLabel>'')'),StrPVP('YMin','75'),StrPVP('YMax','400'),StrPVP('SaveName','ScopeD"
       "ata31'),StrPVP('DataFormat','StructureWithTime'),StrPVP('BlockParamSampleTime','0'),StrPVP('LimitDataPoints','on"
       "'),StrPVP('Decimation','1'),StrPVP('BlockParamSampleInput','off'))"
       NumInputPorts	      "1"
@@ -6489,16 +6579,16 @@ Model {
       "[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.3921568627"
       "45098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745"
       "098039215686 0.650980392156863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{"
-      "}},'NumLines',0,'LineNames',{{[]}},'ShowContent',true,'Placement',1)},'DisplayPropertyDefaults',struct('MinYLimR"
-      "eal','2.75','MaxYLimReal','5.25','YLabelReal','','MinYLimMag','2.75','MaxYLimMag','5.25','LegendVisibility','off"
-      "','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274"
-      "509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411"
-      "764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.2745098"
-      "03921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLabel>','LineProperti"
-      "esCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',0,'LineNames',{{[]}},'ShowContent',true,'Placement',1)),"
-      "extmgr.Configuration('Tools','Plot Navigation',true,'OnceAtStop',false,'PreviousAutoscale','XY'),extmgr.Configur"
-      "ation('Tools','Measurements',true,'Version','2017b')),'Version','2017b','Location',[1 573 406 1079],'WindowStyle"
-      "','docked','VisibleAtModelOpen','on')"
+      "}},'NumLines',1,'LineNames',{{'Repeating Sequence'}},'ShowContent',true,'Placement',1)},'DisplayPropertyDefaults"
+      "',struct('MinYLimReal','2.75','MaxYLimReal','5.25','YLabelReal','','MinYLimMag','2.75','MaxYLimMag','5.25','Lege"
+      "ndVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274"
+      "509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.6235294"
+      "11764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.7176470"
+      "58823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLab"
+      "el>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',0,'LineNames',{{[]}},'ShowContent',tru"
+      "e,'Placement',1)),extmgr.Configuration('Tools','Plot Navigation',true,'OnceAtStop',false,'PreviousAutoscale','XY"
+      "'),extmgr.Configuration('Tools','Measurements',true,'Version','2016b')),'Version','2016b','Location',[4 445 440 "
+      "606],'WindowStyle','docked','VisibleAtModelOpen','on')"
       NumInputPorts	      "1"
     }
     Block {
@@ -6527,7 +6617,6 @@ Model {
 	Name			"Subsystem"
 	Location		[21, 26, 1097, 760]
 	Open			off
-	PortBlocksUseCompactNotation off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -6583,7 +6672,6 @@ Model {
 	    Name		    "Double click\non this for demo.5"
 	    Location		    [16, 52, 1092, 876]
 	    Open		    off
-	    PortBlocksUseCompactNotation off
 	    ModelBrowserVisibility  off
 	    ModelBrowserWidth	    200
 	    ScreenColor		    "white"
@@ -6759,7 +6847,6 @@ Model {
 	Name			"Subsystem1"
 	Location		[357, 299, 893, 844]
 	Open			off
-	PortBlocksUseCompactNotation off
 	ModelBrowserVisibility	off
 	ModelBrowserWidth	200
 	ScreenColor		"white"
@@ -7031,345 +7118,17 @@ Model {
     }
     Block {
       BlockType		      Reference
-      Name		      "x pos Controller"
-      SID		      "302"
-      Ports		      [1, 1]
-      Position		      [1075, 142, 1115, 178]
-      ZOrder		      -15
-      LibraryVersion	      "1.401"
-      SourceBlock	      "simulink/Continuous/PID Controller"
-      SourceType	      "PID 1dof"
-      SourceProductName	      "Simulink"
-      SourceProductBaseCode   "SL"
-      ContentPreviewEnabled   off
-      Controller	      "PID"
-      TimeDomain	      "Continuous-time"
-      SampleTime	      "-1"
-      IntegratorMethod	      "Forward Euler"
-      FilterMethod	      "Forward Euler"
-      Form		      "Parallel"
-      UseFilter		      on
-      ControllerParametersSource "internal"
-      P			      "0.8"
-      I			      "0.2"
-      D			      "0"
-      N			      "100"
-      InitialConditionSource  "internal"
-      InitialConditionForIntegrator "0"
-      InitialConditionForFilter	"0"
-      ExternalReset	      "none"
-      IgnoreLimit	      off
-      ZeroCross		      on
-      LimitOutput	      off
-      UpperSaturationLimit    "inf"
-      LowerSaturationLimit    "-inf"
-      LinearizeAsGain	      off
-      AntiWindupMode	      "none"
-      Kb		      "1"
-      TrackingMode	      off
-      Kt		      "1"
-      RndMeth		      "Floor"
-      SaturateOnIntegerOverflow	off
-      LockScale		      off
-      PParamMin		      "[]"
-      PParamMax		      "[]"
-      PParamDataTypeStr	      "Inherit: Inherit via internal rule"
-      IParamMin		      "[]"
-      IParamMax		      "[]"
-      IParamDataTypeStr	      "Inherit: Inherit via internal rule"
-      DParamMin		      "[]"
-      DParamMax		      "[]"
-      DParamDataTypeStr	      "Inherit: Inherit via internal rule"
-      NParamMin		      "[]"
-      NParamMax		      "[]"
-      NParamDataTypeStr	      "Inherit: Inherit via internal rule"
-      KbParamMin	      "[]"
-      KbParamMax	      "[]"
-      KbParamDataTypeStr      "Inherit: Inherit via internal rule"
-      KtParamMin	      "[]"
-      KtParamMax	      "[]"
-      KtParamDataTypeStr      "Inherit: Inherit via internal rule"
-      POutMin		      "[]"
-      POutMax		      "[]"
-      POutDataTypeStr	      "Inherit: Inherit via internal rule"
-      PGainOutDataTypeStr     "Inherit: Inherit via internal rule"
-      PProdOutDataTypeStr     "Inherit: Inherit via internal rule"
-      IOutMin		      "[]"
-      IOutMax		      "[]"
-      IOutDataTypeStr	      "Inherit: Inherit via internal rule"
-      IGainOutDataTypeStr     "Inherit: Inherit via internal rule"
-      IProdOutDataTypeStr     "Inherit: Inherit via internal rule"
-      DOutMin		      "[]"
-      DOutMax		      "[]"
-      DOutDataTypeStr	      "Inherit: Inherit via internal rule"
-      DGainOutDataTypeStr     "Inherit: Inherit via internal rule"
-      DProdOutDataTypeStr     "Inherit: Inherit via internal rule"
-      NOutMin		      "[]"
-      NOutMax		      "[]"
-      NOutDataTypeStr	      "Inherit: Inherit via internal rule"
-      NGainOutDataTypeStr     "Inherit: Inherit via internal rule"
-      NProdOutDataTypeStr     "Inherit: Inherit via internal rule"
-      KbOutMin		      "[]"
-      KbOutMax		      "[]"
-      KbOutDataTypeStr	      "Inherit: Inherit via internal rule"
-      KtOutMin		      "[]"
-      KtOutMax		      "[]"
-      KtOutDataTypeStr	      "Inherit: Inherit via internal rule"
-      IntegratorOutMin	      "[]"
-      IntegratorOutMax	      "[]"
-      IntegratorOutDataTypeStr "Inherit: Inherit via internal rule"
-      FilterOutMin	      "[]"
-      FilterOutMax	      "[]"
-      FilterOutDataTypeStr    "Inherit: Inherit via internal rule"
-      SumOutMin		      "[]"
-      SumOutMax		      "[]"
-      SumOutDataTypeStr	      "Inherit: Inherit via internal rule"
-      SumI1OutMin	      "[]"
-      SumI1OutMax	      "[]"
-      SumI1OutDataTypeStr     "Inherit: Inherit via internal rule"
-      SumI2OutMin	      "[]"
-      SumI2OutMax	      "[]"
-      SumI2OutDataTypeStr     "Inherit: Inherit via internal rule"
-      SumI3OutMin	      "[]"
-      SumI3OutMax	      "[]"
-      SumI3OutDataTypeStr     "Inherit: Inherit via internal rule"
-      SumDOutMin	      "[]"
-      SumDOutMax	      "[]"
-      SumDOutDataTypeStr      "Inherit: Inherit via internal rule"
-      SumAccumDataTypeStr     "Inherit: Inherit via internal rule"
-      SumI1AccumDataTypeStr   "Inherit: Inherit via internal rule"
-      SumI2AccumDataTypeStr   "Inherit: Inherit via internal rule"
-      SumI3AccumDataTypeStr   "Inherit: Inherit via internal rule"
-      SumDAccumDataTypeStr    "Inherit: Inherit via internal rule"
-      SaturationOutMin	      "[]"
-      SaturationOutMax	      "[]"
-      SaturationOutDataTypeStr "Inherit: Same as input"
-      IntegratorContinuousStateAttributes "''"
-      IntegratorStateMustResolveToSignalObject off
-      IntegratorRTWStateStorageClass "Auto"
-      FilterContinuousStateAttributes "''"
-      FilterStateMustResolveToSignalObject off
-      FilterRTWStateStorageClass "Auto"
-      DifferentiatorICPrevScaledInput "0"
-      DifferentiatorOutMin    "[]"
-      DifferentiatorOutMax    "[]"
-      DifferentiatorOutDataTypeStr "Inherit: Inherit via internal rule"
-      InitialConditionSetting "State (most efficient)"
-      FilterDiffNumProductOutputDataTypeStr "Inherit: Inherit via internal rule"
-      FilterDiffDenProductOutputDataTypeStr "Inherit: Inherit via internal rule"
-      FilterDiffNumAccumDataTypeStr "Inherit: Inherit via internal rule"
-      FilterDiffDenAccumDataTypeStr "Inherit: Inherit via internal rule"
-      FilterDiffOutCoefMin    "[]"
-      FilterDiffOutCoefMax    "[]"
-      FilterDiffOutCoefDataTypeStr "Inherit: Inherit via internal rule"
-      SumDenAccumDataTypeStr  "Inherit: Inherit via internal rule"
-      SumDenOutMin	      "[]"
-      SumDenOutMax	      "[]"
-      SumDenOutDataTypeStr    "Inherit: Inherit via internal rule"
-      SumNumAccumDataTypeStr  "Inherit: Inherit via internal rule"
-      SumNumOutMin	      "[]"
-      SumNumOutMax	      "[]"
-      SumNumOutDataTypeStr    "Inherit: Inherit via internal rule"
-      ReciprocalOutMin	      "[]"
-      ReciprocalOutMax	      "[]"
-      ReciprocalOutDataTypeStr "Inherit: Inherit via internal rule"
-      DivideOutMin	      "[]"
-      DivideOutMax	      "[]"
-      DivideOutDataTypeStr    "Inherit: Inherit via internal rule"
-      TunerSelectOption	      "Transfer Function Based (PID Tuner App)"
-    }
-    Block {
-      BlockType		      Constant
-      Name		      "x pos setpoint"
-      SID		      "306"
-      Position		      [935, 115, 965, 145]
-      ZOrder		      -5
-    }
-    Block {
-      BlockType		      Reference
-      Name		      "y pos Controller"
-      SID		      "303"
-      Ports		      [1, 1]
-      Position		      [1075, 202, 1115, 238]
-      ZOrder		      -16
-      LibraryVersion	      "1.401"
-      SourceBlock	      "simulink/Continuous/PID Controller"
-      SourceType	      "PID 1dof"
-      SourceProductName	      "Simulink"
-      SourceProductBaseCode   "SL"
-      ContentPreviewEnabled   off
-      Controller	      "PID"
-      TimeDomain	      "Continuous-time"
-      SampleTime	      "-1"
-      IntegratorMethod	      "Forward Euler"
-      FilterMethod	      "Forward Euler"
-      Form		      "Parallel"
-      UseFilter		      on
-      ControllerParametersSource "internal"
-      P			      "1"
-      I			      "0.2"
-      D			      "0"
-      N			      "100"
-      InitialConditionSource  "internal"
-      InitialConditionForIntegrator "0"
-      InitialConditionForFilter	"0"
-      ExternalReset	      "none"
-      IgnoreLimit	      off
-      ZeroCross		      on
-      LimitOutput	      off
-      UpperSaturationLimit    "inf"
-      LowerSaturationLimit    "-inf"
-      LinearizeAsGain	      off
-      AntiWindupMode	      "none"
-      Kb		      "1"
-      TrackingMode	      off
-      Kt		      "1"
-      RndMeth		      "Floor"
-      SaturateOnIntegerOverflow	off
-      LockScale		      off
-      PParamMin		      "[]"
-      PParamMax		      "[]"
-      PParamDataTypeStr	      "Inherit: Inherit via internal rule"
-      IParamMin		      "[]"
-      IParamMax		      "[]"
-      IParamDataTypeStr	      "Inherit: Inherit via internal rule"
-      DParamMin		      "[]"
-      DParamMax		      "[]"
-      DParamDataTypeStr	      "Inherit: Inherit via internal rule"
-      NParamMin		      "[]"
-      NParamMax		      "[]"
-      NParamDataTypeStr	      "Inherit: Inherit via internal rule"
-      KbParamMin	      "[]"
-      KbParamMax	      "[]"
-      KbParamDataTypeStr      "Inherit: Inherit via internal rule"
-      KtParamMin	      "[]"
-      KtParamMax	      "[]"
-      KtParamDataTypeStr      "Inherit: Inherit via internal rule"
-      POutMin		      "[]"
-      POutMax		      "[]"
-      POutDataTypeStr	      "Inherit: Inherit via internal rule"
-      PGainOutDataTypeStr     "Inherit: Inherit via internal rule"
-      PProdOutDataTypeStr     "Inherit: Inherit via internal rule"
-      IOutMin		      "[]"
-      IOutMax		      "[]"
-      IOutDataTypeStr	      "Inherit: Inherit via internal rule"
-      IGainOutDataTypeStr     "Inherit: Inherit via internal rule"
-      IProdOutDataTypeStr     "Inherit: Inherit via internal rule"
-      DOutMin		      "[]"
-      DOutMax		      "[]"
-      DOutDataTypeStr	      "Inherit: Inherit via internal rule"
-      DGainOutDataTypeStr     "Inherit: Inherit via internal rule"
-      DProdOutDataTypeStr     "Inherit: Inherit via internal rule"
-      NOutMin		      "[]"
-      NOutMax		      "[]"
-      NOutDataTypeStr	      "Inherit: Inherit via internal rule"
-      NGainOutDataTypeStr     "Inherit: Inherit via internal rule"
-      NProdOutDataTypeStr     "Inherit: Inherit via internal rule"
-      KbOutMin		      "[]"
-      KbOutMax		      "[]"
-      KbOutDataTypeStr	      "Inherit: Inherit via internal rule"
-      KtOutMin		      "[]"
-      KtOutMax		      "[]"
-      KtOutDataTypeStr	      "Inherit: Inherit via internal rule"
-      IntegratorOutMin	      "[]"
-      IntegratorOutMax	      "[]"
-      IntegratorOutDataTypeStr "Inherit: Inherit via internal rule"
-      FilterOutMin	      "[]"
-      FilterOutMax	      "[]"
-      FilterOutDataTypeStr    "Inherit: Inherit via internal rule"
-      SumOutMin		      "[]"
-      SumOutMax		      "[]"
-      SumOutDataTypeStr	      "Inherit: Inherit via internal rule"
-      SumI1OutMin	      "[]"
-      SumI1OutMax	      "[]"
-      SumI1OutDataTypeStr     "Inherit: Inherit via internal rule"
-      SumI2OutMin	      "[]"
-      SumI2OutMax	      "[]"
-      SumI2OutDataTypeStr     "Inherit: Inherit via internal rule"
-      SumI3OutMin	      "[]"
-      SumI3OutMax	      "[]"
-      SumI3OutDataTypeStr     "Inherit: Inherit via internal rule"
-      SumDOutMin	      "[]"
-      SumDOutMax	      "[]"
-      SumDOutDataTypeStr      "Inherit: Inherit via internal rule"
-      SumAccumDataTypeStr     "Inherit: Inherit via internal rule"
-      SumI1AccumDataTypeStr   "Inherit: Inherit via internal rule"
-      SumI2AccumDataTypeStr   "Inherit: Inherit via internal rule"
-      SumI3AccumDataTypeStr   "Inherit: Inherit via internal rule"
-      SumDAccumDataTypeStr    "Inherit: Inherit via internal rule"
-      SaturationOutMin	      "[]"
-      SaturationOutMax	      "[]"
-      SaturationOutDataTypeStr "Inherit: Same as input"
-      IntegratorContinuousStateAttributes "''"
-      IntegratorStateMustResolveToSignalObject off
-      IntegratorRTWStateStorageClass "Auto"
-      FilterContinuousStateAttributes "''"
-      FilterStateMustResolveToSignalObject off
-      FilterRTWStateStorageClass "Auto"
-      DifferentiatorICPrevScaledInput "0"
-      DifferentiatorOutMin    "[]"
-      DifferentiatorOutMax    "[]"
-      DifferentiatorOutDataTypeStr "Inherit: Inherit via internal rule"
-      InitialConditionSetting "State (most efficient)"
-      FilterDiffNumProductOutputDataTypeStr "Inherit: Inherit via internal rule"
-      FilterDiffDenProductOutputDataTypeStr "Inherit: Inherit via internal rule"
-      FilterDiffNumAccumDataTypeStr "Inherit: Inherit via internal rule"
-      FilterDiffDenAccumDataTypeStr "Inherit: Inherit via internal rule"
-      FilterDiffOutCoefMin    "[]"
-      FilterDiffOutCoefMax    "[]"
-      FilterDiffOutCoefDataTypeStr "Inherit: Inherit via internal rule"
-      SumDenAccumDataTypeStr  "Inherit: Inherit via internal rule"
-      SumDenOutMin	      "[]"
-      SumDenOutMax	      "[]"
-      SumDenOutDataTypeStr    "Inherit: Inherit via internal rule"
-      SumNumAccumDataTypeStr  "Inherit: Inherit via internal rule"
-      SumNumOutMin	      "[]"
-      SumNumOutMax	      "[]"
-      SumNumOutDataTypeStr    "Inherit: Inherit via internal rule"
-      ReciprocalOutMin	      "[]"
-      ReciprocalOutMax	      "[]"
-      ReciprocalOutDataTypeStr "Inherit: Inherit via internal rule"
-      DivideOutMin	      "[]"
-      DivideOutMax	      "[]"
-      DivideOutDataTypeStr    "Inherit: Inherit via internal rule"
-      TunerSelectOption	      "Transfer Function Based (PID Tuner App)"
-    }
-    Block {
-      BlockType		      Constant
-      Name		      "y pos setpoint"
-      SID		      "432"
-      Position		      [860, 125, 890, 155]
-      ZOrder		      7
-      Value		      "2"
-    }
-    Block {
-      BlockType		      Reference
       Name		      "y setpoint"
       SID		      "426"
       Ports		      [0, 1]
       Position		      [935, 175, 965, 205]
       ZOrder		      4
-      Commented		      "on"
-      LibraryVersion	      "1.401"
+      LibraryVersion	      "1.388"
       SourceBlock	      "simulink/Sources/Repeating\nSequence"
       SourceType	      "Repeating table"
-      SourceProductName	      "Simulink"
-      SourceProductBaseCode   "SL"
       ContentPreviewEnabled   off
       rep_seq_t		      "[0 4.99 5 10 14.99 15 20 25]"
       rep_seq_y		      "[2 2   4 4 4 2 2 2]"
-    }
-    Block {
-      BlockType		      Constant
-      Name		      "z pos setpoint"
-      SID		      "428"
-      Position		      [980, 350, 1010, 380]
-      ZOrder		      6
-      Value		      "3"
-      Port {
-	PortNumber		1
-	Name			"z pos setpoint"
-      }
     }
     Block {
       BlockType		      Scope
@@ -7379,6 +7138,11 @@ Model {
       Position		      [185, 14, 215, 46]
       ZOrder		      5
       IOType		      "viewer"
+      List {
+	ListType		IOSignalStrings
+	set0ParseKeys		"13"
+	set0Sigs		"y setpoint:o1"
+      }
       ScopeSpecificationString "Simulink.scopes.TimeScopeBlockCfg('CurrentConfiguration', extmgr.ConfigurationSet(extm"
       "gr.Configuration('Core','General UI',true),extmgr.Configuration('Core','Source UI',true),extmgr.Configuration('S"
       "ources','WiredSimulink',true,'DataLoggingVariableName','ScopeData1'),extmgr.Configuration('Visuals','Time Domain"
@@ -7387,15 +7151,15 @@ Model {
       "],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0"
       ".0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0"
       ".0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.6509803921"
-      "56863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',0,'LineName"
-      "s',{{[]}},'ShowContent',true,'Placement',1)},'DisplayPropertyDefaults',struct('MinYLimReal','1.75','MaxYLimReal'"
-      ",'4.25','YLabelReal','','MinYLimMag','1.75','MaxYLimMag','4.25','LegendVisibility','off','XGrid',true,'YGrid',tr"
-      "ue,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.6862745098039"
-      "22],'ColorOrder',[0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;1 1 0.066666666666"
-      "6667;0.717647058823529 0.274509803921569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0.058823529411"
-      "7647 1 1;1 0.0745098039215686 0.650980392156863])),extmgr.Configuration('Tools','Plot Navigation',true,'Previous"
-      "Autoscale','XY'),extmgr.Configuration('Tools','Measurements',true,'Version','2017b')),'Version','2017b','Positio"
-      "n',[1 1 405 506],'WindowStyle','docked','VisibleAtModelOpen','on')"
+      "56863],'Title','%<SignalLabel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',1,'LineName"
+      "s',{{'y setpoint'}},'ShowContent',true,'Placement',1)},'DisplayPropertyDefaults',struct('MinYLimReal','1.75','Ma"
+      "xYLimReal','4.25','YLabelReal','','MinYLimMag','1.75','MaxYLimMag','4.25','LegendVisibility','off','XGrid',true,"
+      "'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686"
+      "274509803922],'ColorOrder',[0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;1 1 0.06"
+      "66666666666667;0.717647058823529 0.274509803921569 1;0.392156862745098 0.831372549019608 0.0745098039215686;0.05"
+      "88235294117647 1 1;1 0.0745098039215686 0.650980392156863])),extmgr.Configuration('Tools','Plot Navigation',true"
+      ",'PreviousAutoscale','XY'),extmgr.Configuration('Tools','Measurements',true,'Version','2016b')),'Version','2016b"
+      "','Position',[447 194 436 161],'WindowStyle','docked','VisibleAtModelOpen','on')"
       NumInputPorts	      "1"
     }
     Line {
@@ -7574,7 +7338,7 @@ Model {
       Points		      [35, 0]
       Branch {
 	ZOrder			30
-	DstBlock		"x pos Controller"
+	DstBlock		"PID Controller"
 	DstPort			1
       }
       Branch {
@@ -7591,7 +7355,7 @@ Model {
       Points		      [5, 0]
       Branch {
 	ZOrder			33
-	DstBlock		"y pos Controller"
+	DstBlock		"PID Controller1"
 	DstPort			1
       }
       Branch {
@@ -7636,17 +7400,17 @@ Model {
     }
     Line {
       ZOrder		      41
-      SrcBlock		      "x pos setpoint"
+      SrcBlock		      "Constant"
       SrcPort		      1
       Points		      [0, 20]
       DstBlock		      "Subtract"
       DstPort		      1
     }
     Line {
-      ZOrder		      148
-      SrcBlock		      "y pos setpoint"
+      ZOrder		      126
+      SrcBlock		      "y setpoint"
       SrcPort		      1
-      Points		      [19, 0; 0, 30; 66, 0; 0, 40]
+      Points		      [10, 0; 0, 20]
       DstBlock		      "Subtract1"
       DstPort		      1
     }
@@ -7660,14 +7424,14 @@ Model {
     }
     Line {
       ZOrder		      44
-      SrcBlock		      "y pos Controller"
+      SrcBlock		      "PID Controller1"
       SrcPort		      1
       DstBlock		      "Saturation1"
       DstPort		      1
     }
     Line {
       ZOrder		      45
-      SrcBlock		      "x pos Controller"
+      SrcBlock		      "PID Controller"
       SrcPort		      1
       DstBlock		      "Saturation"
       DstPort		      1
@@ -7727,11 +7491,10 @@ Model {
       DstPort		      4
     }
     Line {
-      Name		      "z pos setpoint"
-      ZOrder		      146
-      SrcBlock		      "z pos setpoint"
+      ZOrder		      119
+      SrcBlock		      "Repeating\nSequence"
       SrcPort		      1
-      Points		      [34, 0; 0, 100; -79, 0; 0, -30]
+      Points		      [25, 0; 0, 50]
       Branch {
 	ZOrder			124
 	DstBlock		"Scope7"
@@ -7739,8 +7502,7 @@ Model {
       }
       Branch {
 	ZOrder			123
-	Labels			[1, 1]
-	Points			[-105, 0]
+	Points			[0, 40; -95, 0; 0, -40; -10, 0]
 	DstBlock		"Rate Transition"
 	DstPort			1
       }
@@ -7748,15 +7510,17 @@ Model {
     Annotation {
       SID		      "422"
       Name		      "HOW TO OPERATE\n1- Double click on optiminit block\n2- Run the simulation"
-      Position		      [9, 552, 156, 590]
+      Position		      [9, 552, 156, 584]
       InternalMargins	      [0, 0, 0, 0]
+      FixedHeight	      off
+      FixedWidth	      off
       ZOrder		      -1
     }
   }
 }
 #Finite State Machines
 #
-#   Stateflow 80000012
+#   Stateflow 80000010
 #
 #
 Stateflow {
@@ -7765,7 +7529,7 @@ Stateflow {
     name		    "systema"
     created		    "13-Oct-2005 10:30:46"
     isLibrary		    0
-    sfVersion		    80000012
+    sfVersion		    80000010
     firstTarget		    2
   }
   target {
